@@ -1,8 +1,0 @@
-[    8414ms] Identifier 'VueComponents' has already been declared
-[   79553ms] [LOG] ajaxPost: Error getting data from AJAX call @ https://ei.phncdn.com/www-static/js/lib/utils/mg_utils-2.0.0.js?cache=2026052109:0
-[   79714ms] Identifier 'VueComponents' has already been declared
-[  126559ms] Identifier 'VueComponents' has already been declared
-[  129307ms] The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22
-[  131824ms] The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22
-[  132176ms] The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22
-[  137417ms] The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22

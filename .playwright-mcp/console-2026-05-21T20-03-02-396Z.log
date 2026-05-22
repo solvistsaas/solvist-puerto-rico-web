@@ -1,8 +1,0 @@
-[     228ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
-    at rX (https://nokvu.com/_next/static/chunks/4bd1b696-096d35a2bd1da3af.js:1:36653)
-    at is (https://nokvu.com/_next/static/chunks/4bd1b696-096d35a2bd1da3af.js:1:87554)
-    at sp (https://nokvu.com/_next/static/chunks/4bd1b696-096d35a2bd1da3af.js:1:128025)
-    at https://nokvu.com/_next/static/chunks/4bd1b696-096d35a2bd1da3af.js:1:122915
-    at sn (https://nokvu.com/_next/static/chunks/4bd1b696-096d35a2bd1da3af.js:1:123016)
-    at sQ (https://nokvu.com/_next/static/chunks/4bd1b696-096d35a2bd1da3af.js:1:149404)
-    at MessagePort.M (https://nokvu.com/_next/static/chunks/794-25415b1f6d87dcd7.js:1:43340)

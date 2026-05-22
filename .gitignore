@@ -37,3 +37,15 @@ yarn-error.log*
 Thumbs.db
 .Trash/
 .vercel
+
+# Tooling/scratch
+.playwright-mcp/
+output/
+.claude/
+CLAUDE.md
+CLAUDE_CODE_RULES.md
+bun.lock
+dev.log
+server.log
+next-env.d.ts
+*.mp4
