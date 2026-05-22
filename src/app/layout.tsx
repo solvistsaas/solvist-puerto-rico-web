@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -15,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://solvist.nokvu.com"),
+  metadataBase: new URL("https://solvist.io"),
   applicationName: "Solvist",
   title: {
     default: "Solvist — Ningún lead sin respuesta. Ningún cliente sin seguimiento.",
@@ -65,7 +67,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
         alt: "Solvist — IA comercial para instaladores solares",
@@ -77,7 +79,7 @@ export const metadata: Metadata = {
     title: "Solvist — Ningún lead sin respuesta",
     description:
       "Agente comercial de IA que responde, califica y agenda en <2 min. 24/7.",
-    images: ["/og-image.png"],
+    images: ["/opengraph-image"],
   },
 };
 
@@ -93,6 +95,8 @@ export default function RootLayout({
         style={{ fontFamily: "var(--font-inter)" }}
       >
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
