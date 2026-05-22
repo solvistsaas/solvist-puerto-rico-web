@@ -98,7 +98,7 @@ export function HeroSection() {
             {/* CTA buttons */}
             <div className="flex flex-wrap gap-3 mt-1">
               <a
-                href="https://cal.com/nokvu/demo"
+                href="/demo"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{

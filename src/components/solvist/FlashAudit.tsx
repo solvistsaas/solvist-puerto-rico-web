@@ -134,7 +134,7 @@ export function FlashAudit() {
         <AnimatedSection delay={0.3}>
           <div className="text-center mt-14">
             <a
-              href="https://cal.com/nokvu/demo"
+              href="/demo"
               target="_blank"
               rel="noopener noreferrer"
               style={{

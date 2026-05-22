@@ -51,7 +51,7 @@ export function FinalCtaSection() {
 
           {/* CTA button */}
           <a
-            href="https://cal.com/nokvu/demo"
+            href="/demo"
             target="_blank"
             rel="noopener noreferrer"
             style={{
