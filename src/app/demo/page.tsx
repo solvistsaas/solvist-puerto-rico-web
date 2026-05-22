@@ -176,9 +176,10 @@ export default function DemoPage() {
               }}
             >
               {[
-                "Configurado en 4 semanas",
+                "Operativo en 7 días",
                 "Soporte en español",
                 "Sin contrato de permanencia",
+                "Tus datos, seguros y bajo tu control",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2">
                   <span style={{ color: "#EB8C3D", fontSize: 13, fontWeight: 700 }}>✓</span>
