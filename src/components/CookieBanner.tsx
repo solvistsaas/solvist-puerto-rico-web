@@ -3,9 +3,12 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
+type GtagArg = string | number | boolean | Date | Record<string, unknown>;
+
 declare global {
   interface Window {
-    dataLayer: Record<string, unknown>[];
+    dataLayer: GtagArg[][];
+    gtag: (...args: GtagArg[]) => void;
   }
 }
 
@@ -20,9 +23,12 @@ export function CookieBanner() {
   const [showDetails, setShowDetails] = useState(false);
 
   useEffect(() => {
+    // Hydration-safe initialization: only check localStorage on client.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     const storedConsent = localStorage.getItem("cookieConsent");
     if (!storedConsent) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShowBanner(true);
     }
   }, []);
@@ -54,12 +60,12 @@ export function CookieBanner() {
       document.head.appendChild(script);
 
       window.dataLayer = window.dataLayer || [];
-      function gtag(...args: any[]) {
-        (window.dataLayer as any[]).push(arguments);
-      }
+      const gtag = (...args: GtagArg[]) => {
+        window.dataLayer.push(args);
+      };
       gtag("js", new Date());
       gtag("config", process.env.NEXT_PUBLIC_GA_ID);
-      (window as any).gtag = gtag;
+      window.gtag = gtag;
     }
   };
 

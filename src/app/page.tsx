@@ -8,8 +8,10 @@ import WhyNowSection from '@/components/landing/WhyNowSection'
 import ComparisonSection from '@/components/landing/ComparisonSection'
 import CtaSection from '@/components/landing/CtaSection'
 import FaqSection from '@/components/landing/FaqSection'
+import { faqs } from '@/components/landing/faqs'
 import LandingFooter from '@/components/landing/LandingFooter'
 import MobileStickyCTA from '@/components/landing/MobileStickyCTA'
+import { JsonLd } from '@/components/JsonLd'
 
 export default function Home() {
   return (
@@ -26,6 +28,20 @@ export default function Home() {
       <FaqSection />
       <LandingFooter />
       <MobileStickyCTA />
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: faqs.map((f) => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: f.a,
+            },
+          })),
+        }}
+      />
     </div>
   )
 }

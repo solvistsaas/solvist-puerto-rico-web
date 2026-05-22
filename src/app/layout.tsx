@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { CookieBanner } from "@/components/CookieBanner";
+import { JsonLd } from "@/components/JsonLd";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -99,6 +100,45 @@ export default function RootLayout({
         <CookieBanner />
         <Analytics />
         <SpeedInsights />
+        <JsonLd
+          data={[
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Solvist",
+              url: "https://solvist.io",
+              logo: "https://solvist.io/logo.svg",
+              description:
+                "Agente comercial de IA para instaladores solares. Responde, califica y agenda cada lead en menos de 2 minutos, 24/7.",
+              parentOrganization: {
+                "@type": "Organization",
+                name: "Nokvu",
+                url: "https://nokvu.com",
+              },
+              areaServed: {
+                "@type": "Country",
+                name: "Puerto Rico",
+              },
+              contactPoint: {
+                "@type": "ContactPoint",
+                email: "contact.solvist@gmail.com",
+                contactType: "sales",
+                availableLanguage: ["es", "en"],
+              },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Solvist",
+              url: "https://solvist.io",
+              inLanguage: "es",
+              publisher: {
+                "@type": "Organization",
+                name: "Solvist",
+              },
+            },
+          ]}
+        />
       </body>
     </html>
   );

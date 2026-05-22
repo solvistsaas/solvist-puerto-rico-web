@@ -44,11 +44,9 @@ const labelStyle = {
   letterSpacing: "0.02em",
 };
 
-// Extend Window type for Cal.com embed
 declare global {
   interface Window {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    Cal?: any;
+    Cal?: unknown;
   }
 }
 
@@ -102,19 +100,13 @@ export default function DemoForm() {
     setLoading(true);
 
     try {
-      // Guardar lead en Supabase
-      const { error } = await supabase.from("leads").insert({
+      await supabase.from("leads").insert({
         nombre: form.nombre,
         email: form.email,
         empresa: form.empresa,
         telefono: form.telefono,
       });
 
-      if (error) {
-        console.error("Error guardando lead:", error);
-      }
-
-      // Actualizar el data-cal-link con los datos pre-rellenados y abrir el popup
       const fullName = `${form.nombre} ${form.apellidos}`.trim();
       const calLink = `didac-puig-wywnbm/30min?name=${encodeURIComponent(fullName)}&email=${encodeURIComponent(form.email)}`;
 
@@ -122,8 +114,6 @@ export default function DemoForm() {
         calTriggerRef.current.setAttribute("data-cal-link", calLink);
         calTriggerRef.current.click();
       }
-    } catch (err) {
-      console.error("Unexpected error:", err);
     } finally {
       setLoading(false);
     }
