@@ -143,7 +143,7 @@ export default function DemoForm() {
         ref={calTriggerRef}
         data-cal-namespace="30min"
         data-cal-link="didac-puig-wywnbm/30min"
-        data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+        data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true","redirectUrl":"https://solvist.io/demo/gracias"}'
         style={{ display: "none" }}
         aria-hidden="true"
         tabIndex={-1}
