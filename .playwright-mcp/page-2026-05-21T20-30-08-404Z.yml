@@ -1,0 +1,366 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e7]: Nokvu
+        - generic [ref=e8]:
+          - link "El problema" [ref=e9] [cursor=pointer]:
+            - /url: "#problema"
+          - link "Auditoría" [ref=e10] [cursor=pointer]:
+            - /url: "#audit"
+          - link "Plataforma" [ref=e11] [cursor=pointer]:
+            - /url: "#plataforma"
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - heading "Ningún lead sin respuesta. Ningún cliente sin seguimiento." [level=1] [ref=e15]
+        - paragraph [ref=e16]: Tus clientes te escriben a las 10pm. Tu equipo los ve al día siguiente. Para entonces, ya llamaron a otro instalador. Solvist responde, califica, entiende la necesidad, agenda y prepara el siguiente paso. Automáticamente.
+        - generic [ref=e17]:
+          - link "Reservar demo" [ref=e18] [cursor=pointer]:
+            - /url: /demo
+          - link "Ver la plataforma" [ref=e19] [cursor=pointer]:
+            - /url: "#plataforma"
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22]: <2 min
+            - generic [ref=e23]: Respuesta a leads
+          - generic [ref=e24]:
+            - generic [ref=e25]: 24/7
+            - generic [ref=e26]: Sin intervención manual
+          - generic [ref=e27]:
+            - generic [ref=e28]: 48h
+            - generic [ref=e29]: Análisis de cartera
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e37]: solvist
+            - generic [ref=e38]: ● Live
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]:
+                - generic [ref=e43]: Solvist
+                - generic [ref=e44]: Asistente Solar
+              - generic [ref=e45]: Conversaciones
+              - generic [ref=e46]: Pendientes
+              - generic [ref=e47]: Propuestas
+              - generic [ref=e48]: Clientes
+              - generic [ref=e49]: Revisiones
+              - generic [ref=e50]: Automatización
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - generic [ref=e53]: Conversaciones
+                - generic [ref=e54]: 16 activas · hace 7h última
+              - generic [ref=e55]:
+                - generic [ref=e56]:
+                  - generic [ref=e57]: CR
+                  - generic [ref=e58]:
+                    - generic [ref=e59]: Carlos Rivera
+                    - generic [ref=e62]: Bayamón · Visita confirmada
+                  - generic [ref=e63]: ✓
+                - generic [ref=e64]:
+                  - generic [ref=e65]: MG
+                  - generic [ref=e66]:
+                    - generic [ref=e67]: María González
+                    - generic [ref=e70]: Guaynabo · Esperando respuesta
+                  - generic [ref=e71]: "2"
+                - generic [ref=e72]:
+                  - generic [ref=e73]: RL
+                  - generic [ref=e74]:
+                    - generic [ref=e75]: Roberto López
+                    - generic [ref=e78]: Ponce · Sin respuesta
+                  - generic [ref=e79]: 9h
+                - generic [ref=e80]:
+                  - generic [ref=e81]: AM
+                  - generic [ref=e82]:
+                    - generic [ref=e83]: Ana Martínez
+                    - generic [ref=e86]: Caguas · Visita confirmada
+                  - generic [ref=e87]: ✓
+                - generic [ref=e88]:
+                  - generic [ref=e89]: JT
+                  - generic [ref=e90]:
+                    - generic [ref=e91]: Jorge Torres
+                    - generic [ref=e94]: Mayagüez · Esperando factura
+                  - generic [ref=e95]: 11h
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: ‹
+            - generic [ref=e107]: S
+            - generic [ref=e108]:
+              - generic [ref=e109]: Solvist IA
+              - generic [ref=e110]: En línea
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - text: 🔔
+              - strong [ref=e113]: Lead nuevo
+              - text: Jorge Torres · Bayamón
+              - text: Interesado en batería
+              - generic [ref=e114]: 05:55 a.m.
+            - generic [ref=e115]:
+              - text: Visita agendada jueves 10AM ✓
+              - generic [ref=e116]: 05:56 ✓✓
+            - generic [ref=e117]:
+              - text: ✅ Recordatorio enviado al cliente.
+              - generic [ref=e118]: 06:01 a.m.
+          - generic [ref=e119]:
+            - generic [ref=e120]: Escribe un mensaje...
+            - generic [ref=e121]: 🎤
+    - generic [ref=e124]:
+      - img
+      - img
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - paragraph [ref=e129]: EL PROBLEMA REAL
+          - heading "El instalador que no llama es el instalador que no vende." [level=2] [ref=e130]
+          - paragraph [ref=e131]: Tus clientes de 2019–2022 tienen sistemas que hoy rinden menos de lo que deberían y pagan más de lo que necesitan. Si no los contactas tú, los contacta tu competencia.
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: "01"
+              - img [ref=e137]
+            - heading "Lead a las 10pm. Sin respuesta hasta el día siguiente." [level=3] [ref=e139]
+            - paragraph [ref=e140]: El cliente escribe cuando puede, no cuando tú trabajas. Si no hay respuesta en menos de 5 minutos, llama al siguiente instalador de la lista.
+            - generic [ref=e142]: El primero en responder se lleva el presupuesto
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - generic [ref=e146]: "02"
+              - img [ref=e148]
+            - heading "Clientes sin contacto desde hace años" [level=3] [ref=e150]
+            - paragraph [ref=e151]: Instalaciones de 2019–2022 cuyos sistemas ya no rinden igual. Sus facturas de LUMA han subido. Nadie les ha explicado por qué ni qué pueden hacer.
+            - generic [ref=e153]: Tu cartera ya tiene compradores esperando
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - generic [ref=e157]: "03"
+              - img [ref=e159]
+            - heading "Propuestas que se quedan sin respuesta" [level=3] [ref=e162]
+            - paragraph [ref=e163]: El presupuesto sale. El cliente lo abre. Nadie hace seguimiento. El cierre cae — no por falta de interés, sino porque nadie volvió a llamar.
+            - generic [ref=e165]: El seguimiento manual no escala
+    - generic [ref=e168]:
+      - generic [ref=e169]: LA PLATAFORMA
+      - heading "Cada lead respondido en menos de 2 minutos" [level=2] [ref=e171]
+      - paragraph [ref=e172]: "Solvist actúa como un equipo de agentes comerciales: responde leads, analiza necesidades, prepara propuestas y mantiene vivo cada seguimiento."
+      - generic [ref=e173]:
+        - generic [ref=e174]:
+          - generic [ref=e175]: Responde
+          - generic [ref=e176]: Primer contacto en minutos
+        - generic [ref=e177]:
+          - generic [ref=e178]: Analiza
+          - generic [ref=e179]: Necesidad, urgencia y contexto
+        - generic [ref=e180]:
+          - generic [ref=e181]: Propone
+          - generic [ref=e182]: Siguiente oferta o mensaje
+        - generic [ref=e183]:
+          - generic [ref=e184]: Sigue
+          - generic [ref=e185]: Follow-up hasta respuesta
+      - generic [ref=e186]:
+        - button "Conversaciones" [ref=e187] [cursor=pointer]
+        - button "Pendientes" [ref=e188] [cursor=pointer]
+        - button "Propuestas" [ref=e189] [cursor=pointer]
+        - button "Revisiones" [ref=e190] [cursor=pointer]
+      - generic [ref=e191]:
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e196]: Solvist
+              - generic [ref=e197]: Asistente Solar
+            - generic [ref=e198]:
+              - generic [ref=e200]: Conversaciones
+              - generic [ref=e201]:
+                - generic [ref=e202]: Pendientes
+                - generic [ref=e203]: "4"
+              - generic [ref=e205]: Propuestas
+              - generic [ref=e207]: Clientes
+              - generic [ref=e208]:
+                - generic [ref=e209]: Revisiones
+                - generic [ref=e210]: "6"
+              - generic [ref=e212]: Automatización
+            - generic [ref=e213]:
+              - generic [ref=e214]: CI
+              - generic [ref=e215]:
+                - generic [ref=e216]: Carlos Instalador
+                - generic [ref=e217]: Solar Energy PR
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - generic [ref=e220]: Conversaciones
+              - generic [ref=e221]: "16"
+            - generic [ref=e223]: Buscar conversación...
+            - generic [ref=e224]:
+              - generic [ref=e225]: Todas
+              - generic [ref=e226]: Nuevas
+              - generic [ref=e227]: En proceso
+              - generic [ref=e228]: Sin respuesta
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - generic [ref=e231]: CR
+                - generic [ref=e232]:
+                  - generic [ref=e234]: Carlos Rivera
+                  - generic [ref=e236]: Bayamón · Visita confirmada
+                - img [ref=e238]
+              - generic [ref=e240]:
+                - generic [ref=e241]: MG
+                - generic [ref=e242]:
+                  - generic [ref=e244]: María González
+                  - generic [ref=e246]: Guaynabo · Esperando respuesta
+                - generic [ref=e247]: "2"
+              - generic [ref=e248]:
+                - generic [ref=e249]: RL
+                - generic [ref=e250]:
+                  - generic [ref=e252]: Roberto López
+                  - generic [ref=e254]: Ponce · Sin respuesta reciente
+                - generic [ref=e255]: hace 20h
+              - generic [ref=e256]:
+                - generic [ref=e257]: AM
+                - generic [ref=e258]:
+                  - generic [ref=e260]: Ana Martínez
+                  - generic [ref=e262]: Caguas · Visita confirmada
+                - img [ref=e264]
+              - generic [ref=e266]:
+                - generic [ref=e267]: JT
+                - generic [ref=e268]:
+                  - generic [ref=e270]: Jorge Torres
+                  - generic [ref=e272]: Mayagüez · Esperando factura
+                - generic [ref=e273]: hace 22h
+              - generic [ref=e274]:
+                - generic [ref=e275]: LH
+                - generic [ref=e276]:
+                  - generic [ref=e278]: Luisa Hernández
+                  - generic [ref=e280]: Carolina · Visita confirmada
+                - generic [ref=e281]: hace 19h
+          - generic [ref=e284]:
+            - generic [ref=e285]: CLIENTE
+            - generic [ref=e286]:
+              - generic [ref=e287]: Carlos Rivera
+              - generic [ref=e288]: Visita confirmada
+            - generic [ref=e289]:
+              - generic [ref=e290]: (787) 555-0142
+              - generic [ref=e291]: Bayamón
+              - generic [ref=e292]: Casa
+              - generic [ref=e293]: $280
+              - generic [ref=e294]: "Batería: Sí"
+            - generic [ref=e295]: ACCIONES
+            - button "Confirmar visita" [ref=e296]
+            - generic [ref=e297]:
+              - button "Enviar propuesta" [ref=e298]
+              - button "Llamar" [ref=e299]
+        - generic [ref=e301]:
+          - generic [ref=e302]: RESPUESTA AUTOMÁTICA
+          - heading "Tu primer contacto ocurre solo" [level=3] [ref=e303]
+          - paragraph [ref=e304]: Cada lead que entra — por WhatsApp, web o Instagram — recibe respuesta inmediata. Sin que nadie en tu equipo tenga que estar pendiente.
+          - generic [ref=e305]:
+            - generic [ref=e306]:
+              - generic [ref=e307]: →
+              - generic [ref=e308]: Respuesta en menos de 2 minutos, 24/7
+            - generic [ref=e309]:
+              - generic [ref=e310]: →
+              - generic [ref=e311]: Calificación automática del interés del cliente
+            - generic [ref=e312]:
+              - generic [ref=e313]: →
+              - generic [ref=e314]: Agendamiento de visita sin intervención manual
+            - generic [ref=e315]:
+              - generic [ref=e316]: →
+              - generic [ref=e317]: Notificación al comercial cuando el cliente está listo
+    - generic [ref=e319]:
+      - generic [ref=e320]:
+        - img [ref=e322]
+        - paragraph [ref=e328]: INTELIGENCIA COMERCIAL
+        - heading "Detectamos qué clientes tienen una oportunidad hoy." [level=2] [ref=e329]
+        - paragraph [ref=e330]: "Una vez el canal responde y hace seguimiento, Solvist empieza a convertir señales en acciones: quién necesita batería, quién debe recibir una propuesta y qué conversación debe atender primero tu equipo."
+      - generic [ref=e331]:
+        - generic [ref=e332]:
+          - paragraph [ref=e334]: "01"
+          - heading "Señales comerciales detectadas" [level=3] [ref=e336]
+          - paragraph [ref=e337]: Solvist identifica patrones de interés, urgencia y necesidad a partir de las conversaciones y respuestas de tus clientes.
+        - generic [ref=e338]:
+          - paragraph [ref=e340]: "02"
+          - heading "Oportunidades priorizadas" [level=3] [ref=e342]
+          - paragraph [ref=e343]: Cada lead, revisión o propuesta queda ordenada por impacto comercial, con el contexto que necesita tu equipo para actuar primero.
+        - generic [ref=e344]:
+          - paragraph [ref=e346]: "03"
+          - heading "Siguiente acción clara" [level=3] [ref=e348]
+          - paragraph [ref=e349]: "La oportunidad no se queda en un dashboard: Solvist propone el mensaje, el canal y el próximo paso para mover al cliente."
+      - generic [ref=e350]:
+        - link "Reservar demo" [ref=e351] [cursor=pointer]:
+          - /url: /demo
+        - paragraph [ref=e352]: Sin compromiso. Sin contrato previo.
+    - generic [ref=e354]:
+      - generic [ref=e355]:
+        - paragraph [ref=e358]: POR QUÉ AHORA EN PUERTO RICO
+        - heading "El mercado cambió. Los instaladores que actúen primero, ganan." [level=2] [ref=e359]
+        - paragraph [ref=e360]: Puerto Rico tiene condiciones únicas que hacen que las instalaciones de 2019–2022 representen hoy una oportunidad que no existía hace cuatro años. Aquí está la evidencia.
+      - generic [ref=e361]:
+        - generic [ref=e362]:
+          - generic [ref=e363]:
+            - generic [ref=e364]: 4–7 años
+            - generic [ref=e365]: Payback real
+          - heading "Baterías en Puerto Rico" [level=3] [ref=e366]
+          - paragraph [ref=e367]: Las baterías LFP bajaron de $800 a $400/kWh. Con el ITC al 30%, el coste neto es de ~$234/kWh. El payback real es de 4 a 7 años. Tu competencia ya lo usa como argumento de venta.
+          - paragraph [ref=e369]: "💡 Clientes en tarifa GSP con 50 kVA: el cargo de demanda LUMA es de ~$400/mes. Se elimina con una batería correctamente dimensionada."
+          - generic [ref=e370]:
+            - img [ref=e371]
+            - generic [ref=e374]: "Fuente:"
+            - generic [ref=e375]: NREL 2025
+        - generic [ref=e376]:
+          - generic [ref=e377]:
+            - generic [ref=e378]: 5.5%
+            - generic [ref=e379]: Degradación anual
+          - heading "Módulos en clima tropical" [level=3] [ref=e380]
+          - paragraph [ref=e381]: La ley de Arrhenius demuestra que cada +10°C duplica la degradación. En Puerto Rico, los módulos alcanzan 65–75°C. Un sistema de 50 kWp instalado en 2019 produce hoy como 37 kWp.
+          - paragraph [ref=e383]: 💡 Tu cliente lleva años perdiendo producción sin que nadie le explique por qué su factura de LUMA no baja como esperaba.
+          - generic [ref=e384]:
+            - img [ref=e385]
+            - generic [ref=e388]: "Fuente:"
+            - generic [ref=e389]: IEC 62804 + Arrhenius
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - generic [ref=e392]: 3–15
+            - generic [ref=e393]: Eventos/semana
+          - heading "Inestabilidad de la red LUMA" [level=3] [ref=e394]
+          - paragraph [ref=e395]: Bayamón, Caguas y Trujillo Alto registran de 3 a 15 eventos de tensión por semana. Los inversores se desconectan por protección. La batería convierte una queja en una venta.
+          - paragraph [ref=e397]: 💡 El cliente llama diciendo que el sistema no funciona. En realidad es una desconexión de protección. Una batería elimina el problema.
+          - generic [ref=e398]:
+            - img [ref=e399]
+            - generic [ref=e402]: "Fuente:"
+            - generic [ref=e403]: LUMA Energy Tariff Data
+      - generic [ref=e404]:
+        - generic [ref=e405]: "Fuentes:"
+        - generic [ref=e406]: NREL 2025 ·
+        - generic [ref=e407]: IEC 62804 ·
+        - generic [ref=e408]: LUMA Energy Tariff Data ·
+        - generic [ref=e409]: BloombergNEF 2025
+    - generic [ref=e410]:
+      - img
+      - generic [ref=e413]:
+        - generic [ref=e414]: Demo personalizada · 30 minutos
+        - heading "¿Cuánto vale tu cartera instalada hoy?" [level=2] [ref=e416]:
+          - text: ¿Cuánto vale tu cartera
+          - text: instalada hoy?
+        - paragraph [ref=e417]: En 30 minutos te mostramos exactamente cómo Solvist funciona con el tipo de instalaciones que tú tienes en Puerto Rico. Sin presentaciones genéricas. Con datos reales de tu mercado.
+        - link "Reservar demo gratuita" [ref=e418] [cursor=pointer]:
+          - /url: /demo
+        - generic [ref=e419]:
+          - generic [ref=e420]:
+            - generic [ref=e421]: ✓
+            - text: Configurado en 4 semanas
+          - generic [ref=e422]:
+            - generic [ref=e423]: ✓
+            - text: Soporte en español
+          - generic [ref=e424]:
+            - generic [ref=e425]: ✓
+            - text: Sin contrato de permanencia
+    - contentinfo [ref=e426]:
+      - generic [ref=e427]:
+        - generic [ref=e428]:
+          - generic [ref=e431]: Nokvu
+          - paragraph [ref=e432]: Solvist es un producto de nokvu
+          - link "hola@nokvu.com" [ref=e433] [cursor=pointer]:
+            - /url: mailto:hola@nokvu.com
+        - paragraph [ref=e435]:
+          - text: © 2026 nokvu ·
+          - link "Privacidad" [ref=e436] [cursor=pointer]:
+            - /url: /privacidad
+          - text: ·
+          - link "Términos" [ref=e437] [cursor=pointer]:
+            - /url: /terminos
+          - text: ·
+          - link "Cookies" [ref=e438] [cursor=pointer]:
+            - /url: /cookies
+  - button "Open Next.js Dev Tools" [ref=e444] [cursor=pointer]:
+    - img [ref=e445]

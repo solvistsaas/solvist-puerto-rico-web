@@ -1,0 +1,687 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e7]:
+      - link "reonic logo" [ref=e8] [cursor=pointer]:
+        - /url: /es-es/
+        - img "reonic logo" [ref=e9]
+      - menubar [ref=e10]:
+        - menuitem "Productos" [ref=e11]:
+          - text: Productos
+          - img [ref=e12]
+        - menuitem "Soluciones" [ref=e14]:
+          - text: Soluciones
+          - img [ref=e15]
+        - menuitem "Recursos" [ref=e17]:
+          - text: Recursos
+          - img [ref=e18]
+        - menuitem "Sobre Nosotros" [ref=e20]:
+          - text: Sobre Nosotros
+          - img [ref=e21]
+      - link "Iniciar sesión" [ref=e24] [cursor=pointer]:
+        - /url: https://portal.reonic.de
+        - generic [ref=e25]: Iniciar sesión
+        - img [ref=e26]
+      - link "Reservar demo" [ref=e28] [cursor=pointer]:
+        - /url: /es-es/book-a-meeting/
+        - img [ref=e29]
+        - text: Reservar demo
+        - img [ref=e31]
+    - generic [ref=e33]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - paragraph [ref=e39]:
+              - text: El
+              - generic [ref=e41]: sistema operativo con IA
+            - paragraph [ref=e42]: para instaladores de renovables.
+          - paragraph [ref=e43]: Planifica fotovoltaica, crea las mejores ofertas, cierra ventas, gestiona las instalaciones y mucho más. Todo desde una sola plataforma nativa de la inteligencia artificial.
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - img [ref=e66]
+            - img "Reonic" [ref=e69]
+            - generic [ref=e71]: Reonic AI
+          - generic [ref=e72]:
+            - generic [ref=e74]:
+              - img [ref=e75]
+              - generic [ref=e77]: "Contacto nuevo: Ana García, 12 kW solar en tejado de tejas, Calle Mayor 10. Visita técnica el lunes."
+              - generic [ref=e78]:
+                - generic [ref=e79]: 09:41
+                - img [ref=e80]
+            - generic [ref=e84]:
+              - img [ref=e85]
+              - generic [ref=e87]: Contacto creado ✓ Puntuación 87/100. Prioridad alta.
+              - generic [ref=e89]: 09:41
+            - generic [ref=e91]:
+              - img [ref=e92]
+              - generic [ref=e94]:
+                - generic [ref=e95]: Contacto · Ana García
+                - generic [ref=e96]: "Sistema: 12 kW solar"
+                - generic [ref=e97]: "Dirección: Calle Mayor 10"
+                - generic [ref=e98]: "Visita: lun. 21 abr. · 10:00"
+                - generic [ref=e99]: "Puntuación: 8 / 10"
+              - generic [ref=e101]: 09:41
+          - generic [ref=e102]:
+            - img [ref=e103]
+            - img [ref=e106]
+            - img [ref=e108]
+            - img [ref=e110]
+        - generic [ref=e114]: 3.000+ clientes
+      - generic [ref=e117]:
+        - heading "La solución todo en uno para la próxima generación de instaladores de renovables." [level=2] [ref=e118]
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - link "Software principal" [ref=e121] [cursor=pointer]:
+              - /url: /es-es/product/360h/
+              - generic [ref=e122]:
+                - img [ref=e123]
+                - heading "Software principal" [level=3] [ref=e125]
+                - img [ref=e126]
+            - paragraph [ref=e128]: CRM, diseño solar, ofertas, gestión de instalaciones, app móvil e integraciones en una sola plataforma.
+            - list [ref=e129]:
+              - listitem [ref=e130]:
+                - link "Ventas" [ref=e131] [cursor=pointer]:
+                  - /url: /es-es/product/360h/sales/
+                  - img [ref=e132]
+                  - generic [ref=e134]: Ventas
+                  - img [ref=e135]
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Ventas"
+                    - generic:
+                      - paragraph: Ventas
+                      - paragraph: Ofertas, precios y firmas digitales
+              - listitem [ref=e137]:
+                - link "Diseño solar" [ref=e138] [cursor=pointer]:
+                  - /url: /es-es/product/360h/planning/
+                  - img [ref=e139]
+                  - generic [ref=e141]: Diseño solar
+                  - img [ref=e142]
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Diseño solar"
+                    - generic:
+                      - paragraph: Diseño solar
+                      - paragraph: Planificación 3D del tejado con disposición de módulos
+              - listitem [ref=e144]:
+                - link "Instalación" [ref=e145] [cursor=pointer]:
+                  - /url: /es-es/product/360h/installation/
+                  - img [ref=e146]
+                  - generic [ref=e148]: Instalación
+                  - img [ref=e149]
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Instalación"
+                    - generic:
+                      - paragraph: Instalación
+                      - paragraph: Seguimiento del estado del proyecto y gestión de tareas
+              - listitem [ref=e151]:
+                - link "CRM" [ref=e152] [cursor=pointer]:
+                  - /url: /es-es/product/360h/crm/
+                  - img [ref=e153]
+                  - generic [ref=e155]: CRM
+                  - img [ref=e156]
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "CRM"
+                    - generic:
+                      - paragraph: CRM
+                      - paragraph: Contactos, pipelines y seguimiento de oportunidades
+              - listitem [ref=e158]:
+                - link "Portal del cliente" [ref=e159] [cursor=pointer]:
+                  - /url: /es-es/product/360h/customer-portal/
+                  - img [ref=e160]
+                  - generic [ref=e162]: Portal del cliente
+                  - img [ref=e163]
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Portal del cliente"
+                    - generic:
+                      - paragraph: Portal del cliente
+                      - paragraph: Portal de autoservicio para tus clientes
+              - listitem [ref=e165]:
+                - link "App" [ref=e166] [cursor=pointer]:
+                  - /url: /es-es/product/360h/app/
+                  - img [ref=e167]
+                  - generic [ref=e169]: App
+                  - img [ref=e170]
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "App"
+                    - generic:
+                      - paragraph: App
+                      - paragraph: App móvil para equipos de campo
+              - listitem [ref=e172]:
+                - link "Diagrama unifilar Nuevo" [ref=e173] [cursor=pointer]:
+                  - /url: /es-es/product/360h/single-line-diagram/
+                  - img [ref=e174]
+                  - generic [ref=e176]: Diagrama unifilar
+                  - generic [ref=e177]: Nuevo
+                  - img [ref=e178]
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Diagrama unifilar"
+                    - generic:
+                      - paragraph: Diagrama unifilar
+                      - paragraph: Edita diagramas unifilares en tu planificación
+              - listitem [ref=e180]:
+                - link "Registro de horas Nuevo" [ref=e181] [cursor=pointer]:
+                  - /url: /es-es/product/360h/time-tracking/
+                  - img [ref=e182]
+                  - generic [ref=e184]: Registro de horas
+                  - generic [ref=e185]: Nuevo
+                  - img [ref=e186]
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Registro de horas"
+                    - generic:
+                      - paragraph: Registro de horas
+                      - paragraph: Registra horas por proyecto y equipo
+          - generic [ref=e188]:
+            - link "IA nativa" [ref=e189] [cursor=pointer]:
+              - /url: /es-es/ai-for-renewable-installers/
+              - generic [ref=e190]:
+                - img [ref=e191]
+                - heading "IA nativa" [level=3] [ref=e193]
+                - img [ref=e194]
+            - paragraph [ref=e196]: Habla con la plataforma, automatiza el trabajo repetitivo y deja que los agentes IA gestionen tareas por ti.
+            - list [ref=e197]:
+              - listitem [ref=e198]:
+                - link "Asistente en WhatsApp" [ref=e199] [cursor=pointer]:
+                  - /url: /es-es/ai-whatsapp/
+                  - img [ref=e200]
+                  - generic [ref=e202]: Asistente en WhatsApp
+                  - img [ref=e203]
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "Tarea proyecto Schmidt: seguimiento subvención antes del viernes"
+                          - generic:
+                            - generic: Listo. Tarea creada, asignada a Anna, vence el vie. 17:00.
+                    - generic:
+                      - paragraph: Asistente en WhatsApp
+                      - paragraph: Gestiona tu negocio desde WhatsApp
+              - listitem [ref=e205]:
+                - img [ref=e206]
+                - generic [ref=e208]: Chat
+                - generic [ref=e209]: próximamente
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Próximamente
+                    - generic:
+                      - paragraph: Chat
+                      - paragraph: Controla Reonic a través de una interfaz conversacional
+              - listitem [ref=e210]:
+                - img [ref=e211]
+                - generic [ref=e213]: Agentes
+                - generic [ref=e214]: próximamente
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Próximamente
+                    - generic:
+                      - paragraph: Agentes
+                      - paragraph: Agentes IA que gestionan tareas de forma autónoma
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - img [ref=e217]
+              - heading "Servicios" [level=3] [ref=e219]
+            - paragraph [ref=e220]: Nos encargamos del papeleo, los trámites de red y las subvenciones para que tu equipo se centre en vender e instalar.
+            - list [ref=e221]:
+              - listitem [ref=e222]:
+                - link "Fotogrametría" [ref=e223] [cursor=pointer]:
+                  - /url: /es-es/product/360h/photogrammetry/
+                  - img [ref=e224]
+                  - generic [ref=e226]: Fotogrametría
+                  - img [ref=e227]
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Fotogrametría"
+                    - generic:
+                      - paragraph: Fotogrametría
+                      - paragraph: Mediciones 3D de tejados con drones
+              - listitem [ref=e229]:
+                - img [ref=e230]
+                - generic [ref=e232]: Factoring
+                - generic [ref=e233]: próximamente
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Factoring"
+                    - generic:
+                      - paragraph: Factoring
+                      - paragraph: Cobra de inmediato, nosotros cobramos después
+      - generic [ref=e235]:
+        - heading "IA integrada desde los cimientos." [level=2] [ref=e236]
+        - paragraph [ref=e237]: Planifica más rápido, vende mejor y automatiza el trabajo que frena a tu equipo. Usa Centro de componentes para responder preguntas sobre códigos de error en obra, atiende primero a los contactos prioritarios, aprende a ganar frente a ofertas de la competencia y obtén resúmenes IA de tus reuniones presenciales directamente en Reonic.
+        - generic [ref=e238]:
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - generic [ref=e242]: Centro de componentes
+              - generic [ref=e243]: Haz preguntas técnicas en lenguaje sencillo
+              - generic [ref=e244]: Obtén respuestas técnicas directas sobre piezas, códigos de error, manuales de instrucciones y garantías.
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e256]: Chat de instalador
+                - generic [ref=e257]: Centro de componentes
+              - generic [ref=e258]:
+                - generic [ref=e261]: qué está conectado a f13 en una vitocal 200?
+                - generic [ref=e264]: "F13 es el sensor de temperatura de flujo del sistema. Tipo de sensor: PT500."
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - generic [ref=e268]: Análisis de competencia
+              - generic [ref=e269]: Compara ofertas de la competencia en una vista
+              - generic [ref=e270]: Sube una propuesta de la competencia y extrae reseñas, datos de la empresa y componentes clave al instante.
+            - generic [ref=e271]:
+              - generic [ref=e272]: Subir oferta
+              - generic [ref=e273]:
+                - generic [ref=e274]: "!"
+                - generic [ref=e275]:
+                  - generic [ref=e276]: Reseñas de 3,2 estrellas
+                  - generic [ref=e277]: Debilidad
+              - generic [ref=e278]:
+                - generic [ref=e279]: "!"
+                - generic [ref=e280]:
+                  - generic [ref=e281]: Fundada en 2026
+                  - generic [ref=e282]: Debilidad
+              - generic [ref=e283]:
+                - img [ref=e285]
+                - generic [ref=e287]:
+                  - generic [ref=e288]: La oferta tiene un precio justo
+                  - generic [ref=e289]: Neutral
+              - generic [ref=e290]:
+                - img [ref=e292]
+                - generic [ref=e294]:
+                  - generic [ref=e295]: Equipo de instalación local
+                  - generic [ref=e296]: Fortaleza
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]: Categorización de contactos
+              - generic [ref=e301]: Puntúa y prioriza contactos automáticamente
+              - generic [ref=e302]: La IA clasifica los contactos entrantes por probabilidad de conversión para que tu equipo se enfoque primero en los contactos adecuados.
+            - generic [ref=e303]:
+              - generic [ref=e304]:
+                - generic [ref=e305]:
+                  - img [ref=e306]
+                  - generic [ref=e309]: "85"
+                - generic [ref=e310]:
+                  - generic [ref=e311]: Müller, Stuttgart
+                  - generic [ref=e312]: Formulario de contacto · nuevo
+              - generic [ref=e313]:
+                - generic [ref=e315]:
+                  - generic [ref=e316]: Preparación del proyecto
+                  - generic [ref=e317]: Fuerte
+                - generic [ref=e321]:
+                  - generic [ref=e322]: Calidad de la propiedad
+                  - generic [ref=e323]: Fuerte
+                - generic [ref=e327]:
+                  - generic [ref=e328]: Perfil del cliente
+                  - generic [ref=e329]: Fuerte
+                - generic [ref=e333]:
+                  - generic [ref=e334]: Potencial solar
+                  - generic [ref=e335]: Fuerte
+                - generic [ref=e338]:
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: Sentimiento del cliente
+                    - generic [ref=e341]: Moderado
+                  - generic [ref=e342]: El cliente parece interesado pero quiere comparar dos ofertas más antes de decidirse.
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - generic [ref=e345]: Alineación presupuestaria
+                    - generic [ref=e346]: Moderado
+                  - generic [ref=e347]: El presupuesto cubre el sistema base pero puede ser necesaria financiación para la batería adicional.
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - generic [ref=e351]: IA de Reuniones
+              - generic [ref=e352]: Convierte reuniones en resúmenes y tareas de seguimiento
+              - generic [ref=e353]: Graba reuniones, genera resúmenes automáticamente y crea las próximas acciones para el equipo.
+            - generic [ref=e363]:
+              - generic [ref=e364]:
+                - generic [ref=e365]: IA de Reuniones
+                - generic [ref=e366]: Extracción de resumen y acciones
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - generic [ref=e369]: Reunión con cliente
+                  - generic [ref=e370]: Proyecto Hoffmann · completado
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - img [ref=e373]
+                    - generic [ref=e375]: Resumen
+                  - generic [ref=e376]: Actualización de propuesta, variante de financiación y seguimiento el viernes.
+      - generic [ref=e378]:
+        - heading "Del primer contacto a la instalación terminada." [level=2] [ref=e379]
+        - paragraph [ref=e380]: Reonic conecta ventas, diseño, propuestas, trabajo en campo y entrega al cliente para proyectos de fotovoltaica, almacenamiento y carga EV. Elige una etapa para ver qué puede gestionar tu equipo en un solo sistema.
+        - generic [ref=e381]:
+          - generic [ref=e382]:
+            - heading "Contactos y CRM" [level=3] [ref=e383]:
+              - img [ref=e385]
+              - text: Contactos y CRM
+            - paragraph [ref=e387]: Captura solicitudes desde formularios, partners, llamadas, emails y notas de campo. Cada contacto y próximo paso queda en un pipeline.
+          - generic [ref=e388]:
+            - heading "Diseño del sistema" [level=3] [ref=e389]:
+              - img [ref=e391]
+              - text: Diseño del sistema
+            - paragraph [ref=e393]: Diseña solar, almacenamiento, wallbox y bomba de calor con datos de componentes, documentos, cálculos y comprobaciones técnicas.
+          - generic [ref=e394]:
+            - heading "Propuestas y firma" [level=3] [ref=e395]:
+              - img [ref=e397]
+              - text: Propuestas y firma
+            - paragraph [ref=e399]: Convierte el diseño en una propuesta de marca con precios, ahorro, variantes, documentos y aceptación digital.
+          - generic [ref=e400]:
+            - heading "Flujo del proyecto" [level=3] [ref=e401]:
+              - img [ref=e403]
+              - text: Flujo del proyecto
+            - paragraph [ref=e405]: Sigue qué está vendido, listo, bloqueado, planificado, instalado y entregado sin repartir actualizaciones entre herramientas.
+          - generic [ref=e406]:
+            - heading "Documentación en campo" [level=3] [ref=e407]:
+              - img [ref=e409]
+              - text: Documentación en campo
+            - paragraph [ref=e411]: Da a los instaladores checklists, fotos, tareas, documentos y contexto de entrega en móvil y tablet.
+          - generic [ref=e412]:
+            - heading "Servicios y automatización" [level=3] [ref=e413]:
+              - img [ref=e415]
+              - text: Servicios y automatización
+            - paragraph [ref=e417]: Delega soporte de planificación, modelos con dron, registros, conexiones API y procesos propios.
+      - generic [ref=e419]:
+        - heading "Diseñado a medida para ti" [level=2] [ref=e420]
+        - paragraph [ref=e421]: Elige el camino que mejor se adapta a tu forma de instalar y vender.
+        - generic [ref=e422]:
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - heading "Instaladores de fotovoltaica" [level=3] [ref=e425]
+              - list [ref=e426]:
+                - listitem [ref=e427]:
+                  - img [ref=e428]
+                  - generic [ref=e430]: Planificación 3D del tejado y disposición de módulos
+                - listitem [ref=e431]:
+                  - img [ref=e432]
+                  - generic [ref=e434]: Presupuestos con firma digital
+            - link "Saber más" [ref=e435] [cursor=pointer]:
+              - /url: /es-es/industry/solar/
+              - text: Saber más
+              - img [ref=e436]
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - heading "Instaladores de bombas de calor" [level=3] [ref=e440]
+              - list [ref=e441]:
+                - listitem [ref=e442]:
+                  - img [ref=e443]
+                  - generic [ref=e445]: Carga térmica DIN EN 12831 y equilibrio hidráulico
+                - listitem [ref=e446]:
+                  - img [ref=e447]
+                  - generic [ref=e449]: Dimensionado de bomba de calor VDI 4645
+            - link "Saber más" [ref=e450] [cursor=pointer]:
+              - /url: /es-es/industry/heating/
+              - text: Saber más
+              - img [ref=e451]
+          - generic [ref=e453]:
+            - generic [ref=e454]:
+              - heading "Instaladores comerciales" [level=3] [ref=e455]
+              - list [ref=e456]:
+                - listitem [ref=e457]:
+                  - img [ref=e458]
+                  - generic [ref=e460]: Simulación de rentabilidad y energía
+                - listitem [ref=e461]:
+                  - img [ref=e462]
+                  - generic [ref=e464]: Planificación de cartera multi-sitio
+            - link "Saber más" [ref=e465] [cursor=pointer]:
+              - /url: /es-es/product/360b/
+              - text: Saber más
+              - img [ref=e466]
+      - generic [ref=e469]:
+        - heading "Más de 3.000 empresas de energías renovables confían en nosotros." [level=2] [ref=e470]
+        - generic [ref=e471]:
+          - generic [ref=e472]:
+            - paragraph [ref=e473]: Antes de pasarnos a Reonic, probamos muchos programas de software fotovoltaico, pero ninguna otra empresa describía el extenso flujo de trabajo de un instalador solar como Reonic. Desde que empezamos a utilizar la herramienta, nuestros procesos están más estructurados y nuestro trabajo diario es mucho más sencillo.
+            - generic [ref=e476]:
+              - generic [ref=e477]: Lennart Charles Pienschke
+              - generic [ref=e478]: Resoco
+          - generic [ref=e479]:
+            - paragraph [ref=e480]: Gracias a Reonic, creamos presupuestos de forma rápida e intuitiva, integrados en nuestro CRM. La estrecha colaboración y la apertura a nuevas funcionalidades hacen de Reonic un socio importante para nuestros procesos empresariales.
+            - generic [ref=e483]:
+              - generic [ref=e484]: Nicolai Ecker
+              - generic [ref=e485]: Invanova
+          - generic [ref=e486]:
+            - paragraph [ref=e487]: Reonic es la elección correcta para nosotros porque al final tenemos todo en una plataforma y la ventaja para nosotros es que no tenemos que cambiar entre diferentes soluciones de software y la incorporación de nuevos socios es más fácil.
+            - generic [ref=e490]:
+              - generic [ref=e491]: Dimitri Kuzin
+              - generic [ref=e492]: MySolarExpress
+          - generic [ref=e493]:
+            - paragraph [ref=e494]: Reonic es una herramienta de primer nivel para la planificación, con soporte y rendimiento de clase mundial. Significativamente mejor que otros proveedores similares en el mercado. ¡Estamos encantados!
+            - generic [ref=e497]:
+              - generic [ref=e498]: Christoph Müller
+              - generic [ref=e499]: D,5 Energy
+          - generic [ref=e500]:
+            - paragraph [ref=e501]: Con Reonic, tenemos el control total de nuestros proyectos fotovoltaicos, desde la planificación hasta la instalación, todo en un solo sistema.
+            - generic [ref=e504]:
+              - generic [ref=e505]: Deniz Kartal
+              - generic [ref=e506]: PYourEnergy
+          - generic [ref=e507]:
+            - paragraph [ref=e508]: Reonic es una herramienta clave para ahorrar tiempo y mejorar el rendimiento de nuestros equipos. Desde la calificación de la solicitud hasta el presupuesto final, es uno de los pilares que nos permite alcanzar nuestros objetivos. Además, nuestros comentarios se tienen en cuenta y el software evoluciona con nosotros.
+            - generic [ref=e512]: Maxime L.
+        - link "Reservar demo ahora" [ref=e514] [cursor=pointer]:
+          - /url: /es-es/book-a-meeting/
+          - text: Reservar demo ahora
+          - img [ref=e515]
+      - generic [ref=e518]:
+        - heading "El mejor software para toda la experiencia de tu cliente." [level=2] [ref=e519]
+        - generic [ref=e520]:
+          - generic [ref=e523]:
+            - heading "Planifica. Asesora. Inspira." [level=3] [ref=e524]
+            - paragraph [ref=e525]: De consulta a oferta en cinco minutos. Reonic es digital, intuitivo, colaborativo y basado en navegador.
+          - generic [ref=e528]:
+            - heading "Cierra tratos. 100% digital." [level=3] [ref=e529]
+            - paragraph [ref=e530]: Inspira a tus clientes con una oferta seria y convincente en PDF o formato digital.
+          - generic [ref=e533]:
+            - heading "Informa y consigue clientes potenciales." [level=3] [ref=e534]
+            - paragraph [ref=e535]: Con nuestros elementos 360°, informas a tus clientes digitalmente. Con nuestra Casa de Energía, generas consultas de clientes previamente cualificados online.
+          - generic [ref=e538]:
+            - heading "Instala. Procesa. Organiza." [level=3] [ref=e539]
+            - paragraph [ref=e540]: Siempre mantén el control de nuevas ofertas, planificación actual y pedidos en curso.
+        - generic [ref=e541]:
+          - generic [ref=e542]: Funciona en todas partes
+          - generic [ref=e545]:
+            - link [ref=e546] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/reonic/id6723856245?l=en-GB
+            - link [ref=e547] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.reonic&pcampaignid=web_share
+      - generic [ref=e549]:
+        - heading "Conoce nuestra oferta" [level=2] [ref=e550]
+        - paragraph [ref=e551]: "Explora las principales formas de usar Reonic: proyectos residenciales, proyectos comerciales y servicios especializados."
+        - generic [ref=e552]:
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - heading "Software residencial" [level=3] [ref=e555]
+              - paragraph [ref=e556]: Gestiona contactos, diseño, propuestas, firmas y entrega para proyectos residenciales.
+            - link "Saber más" [ref=e557] [cursor=pointer]:
+              - /url: /es-es/product/360h/
+              - text: Saber más
+              - img [ref=e558]
+          - generic [ref=e560]:
+            - generic [ref=e561]:
+              - heading "Software comercial" [level=3] [ref=e562]
+              - paragraph [ref=e563]: Diseña, simula y vende proyectos FV, almacenamiento y carga para clientes comerciales.
+            - link "Saber más" [ref=e564] [cursor=pointer]:
+              - /url: /es-es/product/360b/
+              - text: Saber más
+              - img [ref=e565]
+        - heading "Conoce más sobre Reonic" [level=2] [ref=e567]
+        - generic [ref=e568]:
+          - generic [ref=e569]:
+            - generic [ref=e570]:
+              - heading "Sobre nosotros" [level=3] [ref=e571]
+              - paragraph [ref=e572]: Conoce la empresa detrás de la plataforma y el equipo que la construye.
+            - link "Sobre Reonic" [ref=e573] [cursor=pointer]:
+              - /url: /es-es/about/us/
+              - text: Sobre Reonic
+              - img [ref=e574]
+          - generic [ref=e576]:
+            - generic [ref=e577]:
+              - heading "Lee nuestro blog" [level=3] [ref=e578]
+              - paragraph [ref=e579]: Actualizaciones de producto, notas del sector y guías prácticas para equipos de energía renovable.
+            - link "Abrir blog" [ref=e580] [cursor=pointer]:
+              - /url: /es-es/blog/
+              - text: Abrir blog
+              - img [ref=e581]
+          - generic [ref=e583]:
+            - generic [ref=e584]:
+              - heading "Únete al equipo" [level=3] [ref=e585]
+              - paragraph [ref=e586]: Consulta las vacantes y el tipo de trabajo para el que contratamos.
+            - link "Ver vacantes" [ref=e587] [cursor=pointer]:
+              - /url: /es-es/about/jobs/
+              - text: Ver vacantes
+              - img [ref=e588]
+    - generic [ref=e594]:
+      - heading "Reserva una demo para saber más de todos los productos y funcionalidades." [level=2] [ref=e595]
+      - paragraph [ref=e596]: En una presentación personal del producto, te mostraremos todos los productos y funciones. Gratuito, sin compromiso y adaptado a tu negocio y necesidades.
+      - link "Reservar una demo" [ref=e597] [cursor=pointer]:
+        - /url: /es-es/book-a-meeting/
+        - text: Reservar una demo
+        - img [ref=e598]
+    - generic [ref=e601]:
+      - heading "Utilizamos cookies" [level=2] [ref=e602]:
+        - img [ref=e603]
+        - text: Utilizamos cookies
+      - paragraph [ref=e605]: Utilizamos cookies e identificadores móviles de anuncios para publicidad personalizada y no personalizada, personalización de anuncios y para analizar cómo utilizas nuestro sitio web.
+      - generic [ref=e606]:
+        - link "Personalizar la configuración" [ref=e607] [cursor=pointer]:
+          - /url: /es-es/legal/cookies/
+        - link "Protección de datos" [ref=e608] [cursor=pointer]:
+          - /url: /es-es/legal/dataprotection/
+        - link "Pie de imprenta" [ref=e609] [cursor=pointer]:
+          - /url: /es-es/legal/imprint/
+      - generic [ref=e610]:
+        - button "Sólo esenciales" [ref=e611]
+        - button "Aceptar todo" [ref=e612]
+    - generic [ref=e614]:
+      - generic [ref=e615]:
+        - img "company logo" [ref=e616]
+        - button "España" [ref=e618]:
+          - img [ref=e619]
+          - generic [ref=e626]: España
+          - img [ref=e627]
+        - generic [ref=e629]:
+          - link [ref=e630] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/reonic/
+            - img [ref=e631]
+          - link [ref=e633] [cursor=pointer]:
+            - /url: https://www.instagram.com/reonic.es
+            - img [ref=e634]
+          - link [ref=e636] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61586151899750
+            - img [ref=e637]
+          - link [ref=e639] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@reonic_com
+            - img [ref=e640]
+          - link [ref=e642] [cursor=pointer]:
+            - /url: https://www.youtube.com/@Reonic_gmbh
+            - img [ref=e643]
+        - generic [ref=e645]: Ubicación de Augsburgo
+        - generic [ref=e646]: Ladehofstraße 13
+        - generic [ref=e647]: 86150 Augsburg
+        - generic [ref=e648]: Alemania
+        - generic [ref=e649]: Ubicación en Berlín
+        - generic [ref=e650]: Rosenstraße 17
+        - generic [ref=e651]: 10178 Berlin
+        - generic [ref=e652]: Alemania
+        - generic [ref=e653]: Ubicación en São Paulo
+        - generic [ref=e654]: Rua Bela Cintra, 904
+        - generic [ref=e655]: 11 andar
+        - generic [ref=e656]: São Paulo
+        - generic [ref=e657]: Brasil
+        - generic [ref=e658]: Reonic GmbH
+        - generic [ref=e659]: Amtsgericht Augsburg
+        - generic [ref=e660]: HRB 36147
+        - generic [ref=e661]: DE342755511
+        - generic [ref=e662]: +34 960 13 66 82
+        - generic [ref=e663]: kontakt@reonic.de
+      - generic [ref=e665]:
+        - generic [ref=e666]: Productos
+        - link "Residencial" [ref=e667] [cursor=pointer]:
+          - /url: /es-es/product/360h/
+        - link "Ventas" [ref=e668] [cursor=pointer]:
+          - /url: /es-es/product/360h/sales/
+        - link "Diseño de fotovoltaica" [ref=e669] [cursor=pointer]:
+          - /url: /es-es/product/360h/planning/
+        - link "Instalación" [ref=e670] [cursor=pointer]:
+          - /url: /es-es/product/360h/installation/
+        - link "CRM" [ref=e671] [cursor=pointer]:
+          - /url: /es-es/product/360h/crm/
+        - link "Portal de clientes" [ref=e672] [cursor=pointer]:
+          - /url: /es-es/product/360h/customer-portal/
+        - link "App" [ref=e673] [cursor=pointer]:
+          - /url: /es-es/product/360h/app/
+        - link "Diagrama unifilar" [ref=e674] [cursor=pointer]:
+          - /url: /es-es/product/360h/single-line-diagram/
+        - link "Registro de horas" [ref=e675] [cursor=pointer]:
+          - /url: /es-es/product/360h/time-tracking/
+        - link "Integraciones" [ref=e676] [cursor=pointer]:
+          - /url: /es-es/product/360h/integrations/
+        - link "Comercial" [ref=e677] [cursor=pointer]:
+          - /url: /es-es/product/360b/
+        - link "Descubre nuestras funciones de IA" [ref=e678] [cursor=pointer]:
+          - /url: /es-es/ai-for-renewable-installers/
+        - link "Asistente en WhatsApp" [ref=e679] [cursor=pointer]:
+          - /url: /es-es/ai-whatsapp/
+        - link "Centro de componentes" [ref=e680] [cursor=pointer]:
+          - /url: /es-es/ai-component/
+        - link "Asistente Comercial" [ref=e681] [cursor=pointer]:
+          - /url: /es-es/ai-sales/
+      - generic [ref=e682]:
+        - generic [ref=e683]:
+          - generic [ref=e684]: Soluciones
+          - link "Para Instaladores de Fotovoltaica" [ref=e685] [cursor=pointer]:
+            - /url: /es-es/industry/solar/
+          - link "Para instaladores de bombas de calor" [ref=e686] [cursor=pointer]:
+            - /url: /es-es/industry/heating/
+        - generic [ref=e687]:
+          - generic [ref=e688]: Más información
+          - link "Quiénes somos" [ref=e689] [cursor=pointer]:
+            - /url: /es-es/about/us/
+          - link "Equipo" [ref=e690] [cursor=pointer]:
+            - /url: /es-es/about/team/
+          - link "Empleo" [ref=e691] [cursor=pointer]:
+            - /url: /es-es/about/jobs/
+      - generic [ref=e692]:
+        - generic [ref=e693]:
+          - generic [ref=e694]: Recursos
+          - link "Blog" [ref=e695] [cursor=pointer]:
+            - /url: /es-es/blog/
+          - link "Libros blancos" [ref=e696] [cursor=pointer]:
+            - /url: /es-es/resources/whitepaper/
+          - link "Eventos" [ref=e697] [cursor=pointer]:
+            - /url: /es-es/resources/events/
+          - link "Newsletter" [ref=e698] [cursor=pointer]:
+            - /url: /es-es/resources/newsletter/
+        - generic [ref=e699]:
+          - generic [ref=e700]: Asuntos jurídicos
+          - link "Pie de imprenta" [ref=e701] [cursor=pointer]:
+            - /url: /es-es/legal/imprint/
+          - link "Protección de datos" [ref=e702] [cursor=pointer]:
+            - /url: /es-es/legal/dataprotection/
+          - link "Cookies" [ref=e703] [cursor=pointer]:
+            - /url: /es-es/legal/cookies/
+          - link "Condiciones generales" [ref=e704] [cursor=pointer]:
+            - /url: /es-es/legal/terms/
+          - link "Acuerdo de tratamiento de datos" [ref=e705] [cursor=pointer]:
+            - /url: /es-es/legal/dpa/
+      - generic [ref=e706]:
+        - generic [ref=e707]: Servicios
+        - link "Fotogrametría" [ref=e708] [cursor=pointer]:
+          - /url: /es-es/product/360h/photogrammetry/
+      - generic [ref=e709]: Copyright © 2026 / Reonic GmbH / All rights reserved.
+  - alert [ref=e710]

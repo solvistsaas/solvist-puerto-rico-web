@@ -1,0 +1,267 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e7]:
+      - link "reonic logo" [ref=e8] [cursor=pointer]:
+        - /url: /es-es/
+        - img "reonic logo" [ref=e9]
+      - menubar [ref=e10]:
+        - menuitem "Productos" [ref=e11]:
+          - text: Productos
+          - img [ref=e12]
+        - menuitem "Soluciones" [ref=e14]:
+          - text: Soluciones
+          - img [ref=e15]
+        - menuitem "Recursos" [ref=e17]:
+          - text: Recursos
+          - img [ref=e18]
+        - menuitem "Sobre Nosotros" [ref=e20]:
+          - text: Sobre Nosotros
+          - img [ref=e21]
+      - link "Iniciar sesión" [ref=e24] [cursor=pointer]:
+        - /url: https://portal.reonic.de
+        - generic [ref=e25]: Iniciar sesión
+        - img [ref=e26]
+      - link "Reservar demo" [ref=e28] [cursor=pointer]:
+        - /url: /es-es/book-a-meeting/
+        - img [ref=e29]
+        - text: Reservar demo
+        - img [ref=e31]
+    - generic [ref=e34]:
+      - heading "Reserva tu demo gratis" [level=1] [ref=e35]
+      - paragraph [ref=e36]: Ten una reunión virtual con nosotros y te mostraremos durante 30 minutos lo que Reonic es capaz de hacer.
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - heading "¿Qué esperar?" [level=2] [ref=e40]
+            - generic [ref=e41]:
+              - generic [ref=e42]:
+                - heading "Demo en vivo" [level=3] [ref=e43]:
+                  - img [ref=e45]
+                  - text: Demo en vivo
+                - paragraph [ref=e47]: Ve el software en vivo, adaptado a tus objetivos.
+              - generic [ref=e48]:
+                - heading "Sin compromiso" [level=3] [ref=e49]:
+                  - img [ref=e51]
+                  - text: Sin compromiso
+                - paragraph [ref=e53]: Haz todas las preguntas que tengas, sin ningún compromiso.
+              - generic [ref=e54]:
+                - heading "Resultados comprobados" [level=3] [ref=e55]:
+                  - img [ref=e57]
+                  - text: Resultados comprobados
+                - paragraph [ref=e59]: Descubre cómo más de 3.000 empresas de fotovoltaica han optimizado sus procesos.
+          - generic [ref=e61]:
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - img [ref=e65]
+                - text: Antes de pasarnos a Reonic, probamos muchos programas de software fotovoltaico, pero ninguna otra empresa describía el extenso flujo de trabajo de un instalador solar como Reonic. Desde que empezamos a utilizar la herramienta, nuestros procesos están más estructurados y nuestro trabajo diario es mucho más sencillo.
+              - generic [ref=e69]:
+                - generic [ref=e70]: Lennart Charles Pienschke
+                - generic [ref=e71]: Resoco
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - text: Gracias a Reonic, creamos presupuestos de forma rápida e intuitiva, integrados en nuestro CRM. La estrecha colaboración y la apertura a nuevas funcionalidades hacen de Reonic un socio importante para nuestros procesos empresariales.
+                - generic:
+                  - generic:
+                    - generic: Nicolai Ecker
+                    - generic: Invanova
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - text: Reonic es la elección correcta para nosotros porque al final tenemos todo en una plataforma y la ventaja para nosotros es que no tenemos que cambiar entre diferentes soluciones de software y la incorporación de nuevos socios es más fácil.
+                - generic:
+                  - generic:
+                    - generic: Dimitri Kuzin
+                    - generic: MySolarExpress
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - text: Reonic es una herramienta de primer nivel para la planificación, con soporte y rendimiento de clase mundial. Significativamente mejor que otros proveedores similares en el mercado. ¡Estamos encantados!
+                - generic:
+                  - generic:
+                    - generic: Christoph Müller
+                    - generic: D,5 Energy
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - text: Con Reonic, tenemos el control total de nuestros proyectos fotovoltaicos, desde la planificación hasta la instalación, todo en un solo sistema.
+                - generic:
+                  - generic:
+                    - generic: Deniz Kartal
+                    - generic: PYourEnergy
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: Nombres*
+              - textbox "Nombres*" [ref=e100]:
+                - /placeholder: Máximo
+            - generic [ref=e101]:
+              - generic [ref=e102]: Apellidos*
+              - textbox "Apellidos*" [ref=e103]:
+                - /placeholder: García
+          - generic [ref=e104]:
+            - generic [ref=e105]: Correo electrónico*
+            - textbox "Correo electrónico*" [ref=e106]:
+              - /placeholder: maximo@garcia.es
+          - generic [ref=e107]:
+            - generic [ref=e108]: Número de teléfono*
+            - textbox "Número de teléfono*" [ref=e109]:
+              - /placeholder: "654321987"
+          - generic [ref=e110]:
+            - generic [ref=e111]: Nombre de la empresa*
+            - textbox "Nombre de la empresa*" [ref=e112]:
+              - /placeholder: Empresa Ejemplo SL
+          - generic [ref=e113]:
+            - paragraph [ref=e114]:
+              - text: Al enviar este formulario, confirmo que he leído la
+              - link "política de privacidad" [ref=e115] [cursor=pointer]:
+                - /url: /es-es/legal/dataprotection/
+              - text: y acepto ser contactado por Reonic.
+              - generic [ref=e116]:
+                - text: Este sitio está protegido por reCAPTCHA y se aplican la
+                - link "Política de privacidad" [ref=e117] [cursor=pointer]:
+                  - /url: https://policies.google.com/privacy
+                - text: y los
+                - link "Términos de servicio" [ref=e118] [cursor=pointer]:
+                  - /url: https://policies.google.com/terms
+                - text: de Google.
+            - 'button "Siguiente paso: Seleccionar franja horaria" [ref=e119]':
+              - text: "Siguiente paso: Seleccionar franja horaria"
+              - img [ref=e120]
+    - generic [ref=e122]:
+      - heading "Utilizamos cookies" [level=2] [ref=e123]:
+        - img [ref=e124]
+        - text: Utilizamos cookies
+      - paragraph [ref=e126]: Utilizamos cookies e identificadores móviles de anuncios para publicidad personalizada y no personalizada, personalización de anuncios y para analizar cómo utilizas nuestro sitio web.
+      - generic [ref=e127]:
+        - link "Personalizar la configuración" [ref=e128] [cursor=pointer]:
+          - /url: /es-es/legal/cookies/
+        - link "Protección de datos" [ref=e129] [cursor=pointer]:
+          - /url: /es-es/legal/dataprotection/
+        - link "Pie de imprenta" [ref=e130] [cursor=pointer]:
+          - /url: /es-es/legal/imprint/
+      - generic [ref=e131]:
+        - button "Sólo esenciales" [ref=e132]
+        - button "Aceptar todo" [ref=e133]
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - img "company logo" [ref=e137]
+        - button "España" [ref=e139]:
+          - img [ref=e140]
+          - generic [ref=e147]: España
+          - img [ref=e148]
+        - generic [ref=e150]:
+          - link [ref=e151] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/reonic/
+            - img [ref=e152]
+          - link [ref=e154] [cursor=pointer]:
+            - /url: https://www.instagram.com/reonic.es
+            - img [ref=e155]
+          - link [ref=e157] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61586151899750
+            - img [ref=e158]
+          - link [ref=e160] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@reonic_com
+            - img [ref=e161]
+          - link [ref=e163] [cursor=pointer]:
+            - /url: https://www.youtube.com/@Reonic_gmbh
+            - img [ref=e164]
+        - generic [ref=e166]: Ubicación de Augsburgo
+        - generic [ref=e167]: Ladehofstraße 13
+        - generic [ref=e168]: 86150 Augsburg
+        - generic [ref=e169]: Alemania
+        - generic [ref=e170]: Ubicación en Berlín
+        - generic [ref=e171]: Rosenstraße 17
+        - generic [ref=e172]: 10178 Berlin
+        - generic [ref=e173]: Alemania
+        - generic [ref=e174]: Ubicación en São Paulo
+        - generic [ref=e175]: Rua Bela Cintra, 904
+        - generic [ref=e176]: 11 andar
+        - generic [ref=e177]: São Paulo
+        - generic [ref=e178]: Brasil
+        - generic [ref=e179]: Reonic GmbH
+        - generic [ref=e180]: Amtsgericht Augsburg
+        - generic [ref=e181]: HRB 36147
+        - generic [ref=e182]: DE342755511
+        - generic [ref=e183]: +34 960 13 66 82
+        - generic [ref=e184]: kontakt@reonic.de
+      - generic [ref=e186]:
+        - generic [ref=e187]: Productos
+        - link "Residencial" [ref=e188] [cursor=pointer]:
+          - /url: /es-es/product/360h/
+        - link "Ventas" [ref=e189] [cursor=pointer]:
+          - /url: /es-es/product/360h/sales/
+        - link "Diseño de fotovoltaica" [ref=e190] [cursor=pointer]:
+          - /url: /es-es/product/360h/planning/
+        - link "Instalación" [ref=e191] [cursor=pointer]:
+          - /url: /es-es/product/360h/installation/
+        - link "CRM" [ref=e192] [cursor=pointer]:
+          - /url: /es-es/product/360h/crm/
+        - link "Portal de clientes" [ref=e193] [cursor=pointer]:
+          - /url: /es-es/product/360h/customer-portal/
+        - link "App" [ref=e194] [cursor=pointer]:
+          - /url: /es-es/product/360h/app/
+        - link "Diagrama unifilar" [ref=e195] [cursor=pointer]:
+          - /url: /es-es/product/360h/single-line-diagram/
+        - link "Registro de horas" [ref=e196] [cursor=pointer]:
+          - /url: /es-es/product/360h/time-tracking/
+        - link "Integraciones" [ref=e197] [cursor=pointer]:
+          - /url: /es-es/product/360h/integrations/
+        - link "Comercial" [ref=e198] [cursor=pointer]:
+          - /url: /es-es/product/360b/
+        - link "Descubre nuestras funciones de IA" [ref=e199] [cursor=pointer]:
+          - /url: /es-es/ai-for-renewable-installers/
+        - link "Asistente en WhatsApp" [ref=e200] [cursor=pointer]:
+          - /url: /es-es/ai-whatsapp/
+        - link "Centro de componentes" [ref=e201] [cursor=pointer]:
+          - /url: /es-es/ai-component/
+        - link "Asistente Comercial" [ref=e202] [cursor=pointer]:
+          - /url: /es-es/ai-sales/
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - generic [ref=e205]: Soluciones
+          - link "Para Instaladores de Fotovoltaica" [ref=e206] [cursor=pointer]:
+            - /url: /es-es/industry/solar/
+          - link "Para instaladores de bombas de calor" [ref=e207] [cursor=pointer]:
+            - /url: /es-es/industry/heating/
+        - generic [ref=e208]:
+          - generic [ref=e209]: Más información
+          - link "Quiénes somos" [ref=e210] [cursor=pointer]:
+            - /url: /es-es/about/us/
+          - link "Equipo" [ref=e211] [cursor=pointer]:
+            - /url: /es-es/about/team/
+          - link "Empleo" [ref=e212] [cursor=pointer]:
+            - /url: /es-es/about/jobs/
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - generic [ref=e215]: Recursos
+          - link "Blog" [ref=e216] [cursor=pointer]:
+            - /url: /es-es/blog/
+          - link "Libros blancos" [ref=e217] [cursor=pointer]:
+            - /url: /es-es/resources/whitepaper/
+          - link "Eventos" [ref=e218] [cursor=pointer]:
+            - /url: /es-es/resources/events/
+          - link "Newsletter" [ref=e219] [cursor=pointer]:
+            - /url: /es-es/resources/newsletter/
+        - generic [ref=e220]:
+          - generic [ref=e221]: Asuntos jurídicos
+          - link "Pie de imprenta" [ref=e222] [cursor=pointer]:
+            - /url: /es-es/legal/imprint/
+          - link "Protección de datos" [ref=e223] [cursor=pointer]:
+            - /url: /es-es/legal/dataprotection/
+          - link "Cookies" [ref=e224] [cursor=pointer]:
+            - /url: /es-es/legal/cookies/
+          - link "Condiciones generales" [ref=e225] [cursor=pointer]:
+            - /url: /es-es/legal/terms/
+          - link "Acuerdo de tratamiento de datos" [ref=e226] [cursor=pointer]:
+            - /url: /es-es/legal/dpa/
+      - generic [ref=e227]:
+        - generic [ref=e228]: Servicios
+        - link "Fotogrametría" [ref=e229] [cursor=pointer]:
+          - /url: /es-es/product/360h/photogrammetry/
+      - generic [ref=e230]: Copyright © 2026 / Reonic GmbH / All rights reserved.
+  - alert [ref=e231]

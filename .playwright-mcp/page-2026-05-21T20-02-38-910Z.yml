@@ -1,0 +1,49 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Usamos cookies para medir rendimiento y mejorar la experiencia.
+      - paragraph [ref=e6]:
+        - text: Puedes aceptar las cookies de analítica o rechazarlas. Las cookies técnicas necesarias seguirán activas para que la web funcione correctamente. Consulta nuestra
+        - link "política de cookies" [ref=e7] [cursor=pointer]:
+          - /url: /cookies
+        - text: "y"
+        - link "privacidad" [ref=e8] [cursor=pointer]:
+          - /url: /privacidad
+        - text: .
+    - generic [ref=e9]:
+      - button "Rechazar" [ref=e10]
+      - button "Aceptar" [ref=e11]
+  - generic [ref=e12]:
+    - link "Nokvu" [ref=e15] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e17]: Nokvu
+    - generic [ref=e18]:
+      - link "← Volver al inicio" [ref=e19] [cursor=pointer]:
+        - /url: /
+      - heading "Política de privacidad" [level=1] [ref=e20]
+      - heading "Responsable del tratamiento" [level=2] [ref=e21]
+      - paragraph [ref=e22]:
+        - text: El responsable del tratamiento es Dídac Puig, con correo
+        - link "raul@nokvu.com" [ref=e23] [cursor=pointer]:
+          - /url: mailto:raul@nokvu.com
+        - text: . Los datos se tratarán a través de los formularios de contacto y solicitudes de auditoría de este sitio.
+      - heading "Finalidad" [level=2] [ref=e24]
+      - paragraph [ref=e25]: Los datos se usan para atender consultas, responder solicitudes comerciales, agendar auditorías y gestionar la relación profesional.
+      - heading "Legitimación" [level=2] [ref=e26]
+      - paragraph [ref=e27]: La base legal es el consentimiento del interesado y, cuando corresponda, la ejecución de medidas precontractuales.
+      - heading "Conservación" [level=2] [ref=e28]
+      - paragraph [ref=e29]: Los datos se conservarán durante el tiempo necesario para atender la solicitud y cumplir con las obligaciones legales aplicables.
+      - heading "Derechos" [level=2] [ref=e30]
+      - paragraph [ref=e31]:
+        - text: Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a
+        - link "raul@nokvu.com" [ref=e32] [cursor=pointer]:
+          - /url: mailto:raul@nokvu.com
+        - text: ". Dirección de contacto: Ramon Turro 248, Barcelona. Teléfono: 695 963 742."
+      - generic [ref=e33]:
+        - link "Aviso legal" [ref=e34] [cursor=pointer]:
+          - /url: /aviso-legal
+        - link "Privacidad" [ref=e35] [cursor=pointer]:
+          - /url: /privacidad
+        - link "Cookies" [ref=e36] [cursor=pointer]:
+          - /url: /cookies
+  - alert [ref=e37]

@@ -1,0 +1,36 @@
+- generic [active] [ref=e1]:
+  - img
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - paragraph [ref=e6]: Error 404
+      - heading "Esta página no existe." [level=1] [ref=e7]
+      - generic [ref=e8]: Comprueba errores ortográficos o vuelve a la página anterior.
+    - generic [ref=e9]:
+      - heading "Páginas Populares" [level=2] [ref=e10]
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Documentación Aprende cómo integrar nuestras herramientas con tu aplicación" [ref=e13] [cursor=pointer]:
+            - /url: https://cal.com/docs
+            - img [ref=e16]
+            - generic [ref=e19]:
+              - heading "Documentación" [level=3] [ref=e20]:
+                - generic [ref=e21]: Documentación
+              - paragraph [ref=e23]: Aprende cómo integrar nuestras herramientas con tu aplicación
+            - img [ref=e25]
+        - listitem [ref=e27]:
+          - link "Blog Lee nuestras últimas noticias y artículos" [ref=e28] [cursor=pointer]:
+            - /url: https://cal.com/blog
+            - img [ref=e31]
+            - generic [ref=e33]:
+              - heading "Blog" [level=3] [ref=e34]:
+                - generic [ref=e35]: Blog
+              - paragraph [ref=e37]: Lee nuestras últimas noticias y artículos
+            - img [ref=e39]
+      - link "O Volver al Inicio" [ref=e42] [cursor=pointer]:
+        - /url: https://cal.com
+        - text: O Volver al Inicio →
+  - alert [ref=e43]
+  - generic:
+    - region "Notifications"
+  - generic:
+    - region "Notifications"

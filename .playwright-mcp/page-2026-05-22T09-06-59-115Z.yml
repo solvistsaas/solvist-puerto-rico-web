@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "SOLVIST by Nokvu" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e7]:
+            - generic [ref=e8]: SOLVIST
+            - generic [ref=e9]: by Nokvu
+        - link "← Volver" [ref=e10] [cursor=pointer]:
+          - /url: /
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: DEMO GRATUITA · 30 MINUTOS
+        - heading "Reserva tu demo personalizada" [level=1] [ref=e15]:
+          - text: Reserva tu demo
+          - text: personalizada
+        - paragraph [ref=e16]: En 30 minutos te mostramos exactamente cómo Solvist funciona con tu tipo de instalaciones. Sin presentaciones genéricas, con datos reales de Puerto Rico.
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - img [ref=e20]
+            - generic [ref=e22]:
+              - paragraph [ref=e23]: Demo en vivo
+              - paragraph [ref=e24]: Te mostramos Solvist funcionando con el tipo de instalaciones que tú tienes en Puerto Rico.
+          - generic [ref=e25]:
+            - img [ref=e27]
+            - generic [ref=e29]:
+              - paragraph [ref=e30]: Sin compromiso
+              - paragraph [ref=e31]: Haz todas las preguntas que necesites, sin contratos ni permanencia.
+          - generic [ref=e32]:
+            - img [ref=e34]
+            - generic [ref=e36]:
+              - paragraph [ref=e37]: Datos reales de tu mercado
+              - paragraph [ref=e38]: No presentaciones genéricas. Analizamos tu cartera de clientes instalada y te mostramos el potencial real.
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: ✓
+            - generic [ref=e42]: Configurado en 4 semanas
+          - generic [ref=e43]:
+            - generic [ref=e44]: ✓
+            - generic [ref=e45]: Soporte en español
+          - generic [ref=e46]:
+            - generic [ref=e47]: ✓
+            - generic [ref=e48]: Sin contrato de permanencia
+      - generic [ref=e50]:
+        - heading "Cuéntanos sobre tu empresa" [level=2] [ref=e51]
+        - paragraph [ref=e52]: Rellena el formulario y selecciona un horario en el siguiente paso.
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]: Nombre *
+              - textbox "Nombre *" [ref=e57]:
+                - /placeholder: Carlos
+            - generic [ref=e58]:
+              - generic [ref=e59]: Apellidos *
+              - textbox "Apellidos *" [ref=e60]:
+                - /placeholder: Rivera
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - generic [ref=e63]: Correo electrónico *
+              - textbox "Correo electrónico *" [ref=e64]:
+                - /placeholder: carlos@instaladora.com
+            - generic [ref=e65]:
+              - generic [ref=e66]: Teléfono *
+              - textbox "Teléfono *" [ref=e67]:
+                - /placeholder: +1 787 555 0000
+            - generic [ref=e68]:
+              - generic [ref=e69]: Nombre de la empresa *
+              - textbox "Nombre de la empresa *" [ref=e70]:
+                - /placeholder: Instalaciones Rivera Solar
+            - generic [ref=e71]:
+              - generic [ref=e72]: ¿Cuántas instalaciones tiene tu cartera?
+              - textbox "¿Cuántas instalaciones tiene tu cartera?" [ref=e73]:
+                - /placeholder: Ej. 50–200 instalaciones
+          - paragraph [ref=e74]:
+            - text: Al enviar este formulario confirmas que has leído nuestra
+            - link "política de privacidad" [ref=e75] [cursor=pointer]:
+              - /url: /privacidad
+            - text: y aceptas ser contactado por Solvist.
+          - 'button "Siguiente paso: Seleccionar horario" [ref=e76] [cursor=pointer]':
+            - text: "Siguiente paso: Seleccionar horario"
+            - img [ref=e77]
+  - button "Open Next.js Dev Tools" [ref=e84] [cursor=pointer]:
+    - img [ref=e85]
+  - alert [ref=e88]

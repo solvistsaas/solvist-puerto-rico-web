@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Usamos cookies para medir rendimiento y mejorar la experiencia.
+      - paragraph [ref=e6]:
+        - text: Puedes aceptar las cookies de analítica o rechazarlas. Las cookies técnicas necesarias seguirán activas para que la web funcione correctamente. Consulta nuestra
+        - link "política de cookies" [ref=e7] [cursor=pointer]:
+          - /url: /cookies
+        - text: "y"
+        - link "privacidad" [ref=e8] [cursor=pointer]:
+          - /url: /privacidad
+        - text: .
+    - generic [ref=e9]:
+      - button "Rechazar" [ref=e10]
+      - button "Aceptar" [ref=e11]
+  - generic [ref=e12]:
+    - link "Nokvu" [ref=e15] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e17]: Nokvu
+    - generic [ref=e18]:
+      - link "← Volver al inicio" [ref=e19] [cursor=pointer]:
+        - /url: /
+      - heading "Aviso legal" [level=1] [ref=e20]
+      - heading "Titular del sitio" [level=2] [ref=e21]
+      - paragraph [ref=e22]:
+        - text: Este sitio web es titularidad de Dídac Puig, con DNI/NIE 41529799X, domicilio en Ramon Turro 248, Barcelona, y correo de contacto
+        - link "raul@nokvu.com" [ref=e23] [cursor=pointer]:
+          - /url: mailto:raul@nokvu.com
+        - text: . La actividad profesional vinculada a este sitio se presta bajo el nombre comercial Nokvu, dedicado a servicios de automatización e inteligencia artificial para empresas. En el momento en que se formalice el alta como autónomo, esta información deberá actualizarse conforme a la situación fiscal correspondiente.
+      - heading "Objeto" [level=2] [ref=e24]
+      - paragraph [ref=e25]: La web presenta servicios de automatización e inteligencia artificial para empresas, así como una landing específica para talleres.
+      - heading "Uso del sitio" [level=2] [ref=e26]
+      - paragraph [ref=e27]: El usuario se compromete a utilizar este sitio de forma lícita, responsable y conforme a la normativa vigente.
+      - heading "Contacto" [level=2] [ref=e28]
+      - paragraph [ref=e29]:
+        - text: "Correo de contacto:"
+        - link "raul@nokvu.com" [ref=e30] [cursor=pointer]:
+          - /url: mailto:raul@nokvu.com
+      - generic [ref=e31]:
+        - link "Aviso legal" [ref=e32] [cursor=pointer]:
+          - /url: /aviso-legal
+        - link "Privacidad" [ref=e33] [cursor=pointer]:
+          - /url: /privacidad
+        - link "Cookies" [ref=e34] [cursor=pointer]:
+          - /url: /cookies
+  - alert [ref=e35]

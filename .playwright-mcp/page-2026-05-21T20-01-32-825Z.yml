@@ -1,0 +1,176 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e7]:
+      - link "reonic logo" [ref=e8] [cursor=pointer]:
+        - /url: /en-gb/
+        - img "reonic logo" [ref=e9]
+      - menubar [ref=e10]:
+        - menuitem "Products" [ref=e11]:
+          - text: Products
+          - img [ref=e12]
+        - menuitem "Solutions" [ref=e14]:
+          - text: Solutions
+          - img [ref=e15]
+        - menuitem "Resources" [ref=e17]:
+          - text: Resources
+          - img [ref=e18]
+        - menuitem "About Us" [ref=e20]:
+          - text: About Us
+          - img [ref=e21]
+      - link "Login" [ref=e24] [cursor=pointer]:
+        - /url: https://portal.reonic.de
+        - generic [ref=e25]: Login
+        - img [ref=e26]
+      - link "Book a demo" [ref=e28] [cursor=pointer]:
+        - /url: /en-gb/book-a-meeting/
+        - img [ref=e29]
+        - text: Book a demo
+        - img [ref=e31]
+    - generic [ref=e35]:
+      - generic [ref=e36]: "404"
+      - generic [ref=e37]: Oops! We couldn't find the page you're looking for.
+      - link "Back home" [ref=e38] [cursor=pointer]:
+        - /url: /en-gb/
+        - text: Back home
+        - img [ref=e39]
+    - generic [ref=e41]:
+      - heading "We use cookies" [level=2] [ref=e42]:
+        - img [ref=e43]
+        - text: We use cookies
+      - paragraph [ref=e45]: We use cookies and mobile ad identifiers for personalised and non-personalised advertising, ads personalisation, and to analyse how you use our website.
+      - generic [ref=e46]:
+        - link "Settings" [ref=e47] [cursor=pointer]:
+          - /url: /en-gb/legal/cookies/
+        - link "Data Protection" [ref=e48] [cursor=pointer]:
+          - /url: /en-gb/legal/dataprotection/
+        - link "Legal notice" [ref=e49] [cursor=pointer]:
+          - /url: /en-gb/legal/imprint/
+      - generic [ref=e50]:
+        - button "Only essential" [ref=e51]
+        - button "Accept all" [ref=e52]
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img "company logo" [ref=e56]
+        - button "United Kingdom" [ref=e58]:
+          - img [ref=e59]
+          - generic [ref=e67]: United Kingdom
+          - img [ref=e68]
+        - generic [ref=e70]:
+          - link [ref=e71] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/reonic/
+            - img [ref=e72]
+          - link [ref=e74] [cursor=pointer]:
+            - /url: https://www.instagram.com/reonic.uk
+            - img [ref=e75]
+          - link [ref=e77] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61587009653320
+            - img [ref=e78]
+          - link [ref=e80] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@reonic_com
+            - img [ref=e81]
+          - link [ref=e83] [cursor=pointer]:
+            - /url: https://www.youtube.com/@Reonic_gmbh
+            - img [ref=e84]
+        - generic [ref=e86]: Location Augsburg
+        - generic [ref=e87]: Ladehofstraße 13
+        - generic [ref=e88]: 86150 Augsburg
+        - generic [ref=e89]: Germany
+        - generic [ref=e90]: Location Berlin
+        - generic [ref=e91]: Rosenstraße 17
+        - generic [ref=e92]: 10178 Berlin
+        - generic [ref=e93]: Germany
+        - generic [ref=e94]: Location São Paulo
+        - generic [ref=e95]: Rua Bela Cintra, 904
+        - generic [ref=e96]: 11 andar
+        - generic [ref=e97]: São Paulo
+        - generic [ref=e98]: Brazil
+        - generic [ref=e99]: Reonic GmbH
+        - generic [ref=e100]: Amtsgericht Augsburg
+        - generic [ref=e101]: HRB 36147
+        - generic [ref=e102]: DE342755511
+        - generic [ref=e103]: +49 1573 5987101
+        - generic [ref=e104]: kontakt@reonic.de
+      - generic [ref=e106]:
+        - generic [ref=e107]: Products
+        - link "Residential" [ref=e108] [cursor=pointer]:
+          - /url: /en-gb/product/360h/
+        - link "Sales" [ref=e109] [cursor=pointer]:
+          - /url: /en-gb/product/360h/sales/
+        - link "Solar Design" [ref=e110] [cursor=pointer]:
+          - /url: /en-gb/product/360h/planning/
+        - link "Installation" [ref=e111] [cursor=pointer]:
+          - /url: /en-gb/product/360h/installation/
+        - link "CRM" [ref=e112] [cursor=pointer]:
+          - /url: /en-gb/product/360h/crm/
+        - link "Customer Portal" [ref=e113] [cursor=pointer]:
+          - /url: /en-gb/product/360h/customer-portal/
+        - link "App" [ref=e114] [cursor=pointer]:
+          - /url: /en-gb/product/360h/app/
+        - link "Single Line Diagram" [ref=e115] [cursor=pointer]:
+          - /url: /en-gb/product/360h/single-line-diagram/
+        - link "Time Tracking" [ref=e116] [cursor=pointer]:
+          - /url: /en-gb/product/360h/time-tracking/
+        - link "Integrations" [ref=e117] [cursor=pointer]:
+          - /url: /en-gb/product/360h/integrations/
+        - link "AR Components" [ref=e118] [cursor=pointer]:
+          - /url: /en-gb/ai-ar/
+        - link "Commercial" [ref=e119] [cursor=pointer]:
+          - /url: /en-gb/product/360b/
+        - link "Services" [ref=e120] [cursor=pointer]:
+          - /url: /en-gb/services/
+        - link "Photogrammetry" [ref=e121] [cursor=pointer]:
+          - /url: /en-gb/product/360h/photogrammetry/
+        - link "AR Components" [ref=e122] [cursor=pointer]:
+          - /url: /en-gb/ai-ar/
+        - link "Discover our AI features" [ref=e123] [cursor=pointer]:
+          - /url: /en-gb/ai-for-renewable-installers/
+        - link "WhatsApp Assistant" [ref=e124] [cursor=pointer]:
+          - /url: /en-gb/ai-whatsapp/
+        - link "Component AI" [ref=e125] [cursor=pointer]:
+          - /url: /en-gb/ai-component/
+        - link "Sales AI" [ref=e126] [cursor=pointer]:
+          - /url: /en-gb/ai-sales/
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: Solutions
+          - link "For Solar Installers" [ref=e130] [cursor=pointer]:
+            - /url: /en-gb/industry/solar/
+          - link "For heat pump installers" [ref=e131] [cursor=pointer]:
+            - /url: /en-gb/industry/heating/
+        - generic [ref=e132]:
+          - generic [ref=e133]: More
+          - link "About us" [ref=e134] [cursor=pointer]:
+            - /url: /en-gb/about/us/
+          - link "Team" [ref=e135] [cursor=pointer]:
+            - /url: /en-gb/about/team/
+          - link "Jobs" [ref=e136] [cursor=pointer]:
+            - /url: /en-gb/about/jobs/
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]: Resources
+          - link "Blog" [ref=e140] [cursor=pointer]:
+            - /url: /en-gb/blog/
+          - link "Whitepaper" [ref=e141] [cursor=pointer]:
+            - /url: /en-gb/resources/whitepaper/
+          - link "Events" [ref=e142] [cursor=pointer]:
+            - /url: /en-gb/resources/events/
+          - link "Newsletter" [ref=e143] [cursor=pointer]:
+            - /url: /en-gb/resources/newsletter/
+        - generic [ref=e144]:
+          - generic [ref=e145]: Legal
+          - link "Imprint" [ref=e146] [cursor=pointer]:
+            - /url: /en-gb/legal/imprint/
+          - link "Data Protection" [ref=e147] [cursor=pointer]:
+            - /url: /en-gb/legal/dataprotection/
+          - link "Cookies" [ref=e148] [cursor=pointer]:
+            - /url: /en-gb/legal/cookies/
+          - link "Terms and conditions" [ref=e149] [cursor=pointer]:
+            - /url: /en-gb/legal/terms/
+          - link "Data processing agreement" [ref=e150] [cursor=pointer]:
+            - /url: /en-gb/legal/dpa/
+      - generic [ref=e151]:
+        - generic [ref=e152]: Services
+        - link "Photogrammetry" [ref=e153] [cursor=pointer]:
+          - /url: /en-gb/product/360h/photogrammetry/
+      - generic [ref=e154]: Copyright © 2026 / Reonic GmbH / All rights reserved.
+  - alert [ref=e155]
