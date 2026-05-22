@@ -3,6 +3,7 @@ import { Outfit, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
+import { CookieBanner } from "@/components/CookieBanner";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -95,6 +96,7 @@ export default function RootLayout({
         style={{ fontFamily: "var(--font-inter)" }}
       >
         {children}
+        <CookieBanner />
         <Analytics />
         <SpeedInsights />
       </body>
