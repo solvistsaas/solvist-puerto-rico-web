@@ -49,3 +49,4 @@ dev.log
 server.log
 next-env.d.ts
 *.mp4
+.env*.local

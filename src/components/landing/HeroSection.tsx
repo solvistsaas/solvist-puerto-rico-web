@@ -1,9 +1,13 @@
 'use client'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import IPhoneMockup from './IPhoneMockup'
 import DashboardMockup from './DashboardMockup'
 
+const DEMO_VIDEO_URL = 'https://uiinfnshz49nuboq.public.blob.vercel-storage.com/hero-demo.mp4'
+
 export default function HeroSection() {
+  const [videoOpen, setVideoOpen] = useState(false)
   return (
     <section
       className="relative flex items-center overflow-hidden"
@@ -110,6 +114,42 @@ export default function HeroSection() {
             >
               Reservar demo
             </a>
+            <button
+              type="button"
+              onClick={() => setVideoOpen(true)}
+              style={{
+                background: 'transparent',
+                color: 'rgba(250,250,250,0.78)',
+                fontSize: '14px',
+                fontWeight: 500,
+                padding: '14px 22px',
+                borderRadius: '8px',
+                border: '1px solid rgba(255,255,255,0.14)',
+                cursor: 'pointer',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              <span
+                aria-hidden="true"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: '20px',
+                  height: '20px',
+                  borderRadius: '50%',
+                  background: 'rgba(235,140,61,0.18)',
+                  color: '#EB8C3D',
+                  fontSize: '9px',
+                }}
+              >
+                ▶
+              </span>
+              Ver demo · 1 min
+            </button>
           </div>
 
           {/* Métricas */}
@@ -294,6 +334,96 @@ export default function HeroSection() {
 
       </div>
 
+      {/* Video modal */}
+      <AnimatePresence>
+        {videoOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.18 }}
+            onClick={() => setVideoOpen(false)}
+            style={{
+              position: 'fixed',
+              inset: 0,
+              background: 'rgba(0,0,0,0.78)',
+              backdropFilter: 'blur(8px)',
+              WebkitBackdropFilter: 'blur(8px)',
+              zIndex: 100,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '24px',
+            }}
+            role="dialog"
+            aria-modal="true"
+            aria-label="Demo de Solvist"
+          >
+            <motion.div
+              initial={{ opacity: 0, scale: 0.96, y: 10 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.96, y: 10 }}
+              transition={{ duration: 0.22, ease: 'easeOut' }}
+              onClick={(e) => e.stopPropagation()}
+              style={{
+                width: '100%',
+                maxWidth: '880px',
+                background: '#0A0A0A',
+                border: '1px solid rgba(255,255,255,0.10)',
+                borderRadius: '16px',
+                overflow: 'hidden',
+                boxShadow: '0 40px 120px rgba(0,0,0,0.6)',
+              }}
+            >
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  padding: '14px 18px',
+                  borderBottom: '1px solid rgba(255,255,255,0.06)',
+                }}
+              >
+                <span style={{ fontSize: '13px', fontWeight: 600, color: '#FAFAFA', fontFamily: 'var(--font-outfit)' }}>
+                  Solvist en 1 minuto
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setVideoOpen(false)}
+                  style={{
+                    background: 'transparent',
+                    border: 'none',
+                    color: 'rgba(250,250,250,0.6)',
+                    fontSize: '20px',
+                    cursor: 'pointer',
+                    lineHeight: 1,
+                    padding: 0,
+                  }}
+                  aria-label="Cerrar"
+                >
+                  ×
+                </button>
+              </div>
+              <video
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  aspectRatio: '16 / 9',
+                  objectFit: 'cover',
+                  display: 'block',
+                }}
+                controls
+                autoPlay
+                playsInline
+                preload="metadata"
+              >
+                <source src={DEMO_VIDEO_URL} type="video/mp4" />
+                Tu navegador no soporta el elemento video.
+              </video>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   )
 }
