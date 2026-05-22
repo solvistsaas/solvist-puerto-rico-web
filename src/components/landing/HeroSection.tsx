@@ -146,7 +146,7 @@ export default function HeroSection() {
               >
                 ▶
               </span>
-              Ver demo · 2 min
+              Ver demo · 1 min
             </button>
           </div>
 
@@ -384,7 +384,7 @@ export default function HeroSection() {
                 }}
               >
                 <span style={{ fontSize: '13px', fontWeight: 600, color: '#FAFAFA', fontFamily: 'var(--font-outfit)' }}>
-                  Solvist en 2 minutos
+                  Solvist en 1 minuto
                 </span>
                 <button
                   type="button"
@@ -404,76 +404,20 @@ export default function HeroSection() {
                 </button>
               </div>
 
-              {/* Video placeholder */}
-              <div
+              {/* Video */}
+              <video
                 style={{
+                  width: '100%',
+                  height: '100%',
                   aspectRatio: '16 / 9',
-                  background:
-                    'linear-gradient(135deg, #0F0F0F 0%, #1A1410 100%)',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  gap: '14px',
-                  padding: '32px',
-                  textAlign: 'center',
+                  objectFit: 'cover',
                 }}
+                controls
+                autoPlay
               >
-                <div
-                  style={{
-                    width: '64px',
-                    height: '64px',
-                    borderRadius: '50%',
-                    background: 'rgba(235,140,61,0.12)',
-                    border: '1px solid rgba(235,140,61,0.28)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    fontSize: '20px',
-                    color: '#EB8C3D',
-                  }}
-                >
-                  ▶
-                </div>
-                <div
-                  style={{
-                    fontFamily: 'var(--font-outfit)',
-                    fontSize: '18px',
-                    fontWeight: 600,
-                    color: '#FAFAFA',
-                  }}
-                >
-                  Vídeo en producción
-                </div>
-                <div
-                  style={{
-                    fontSize: '13px',
-                    color: 'rgba(250,250,250,0.55)',
-                    maxWidth: '420px',
-                    lineHeight: 1.55,
-                  }}
-                >
-                  Estamos grabando el vídeo demo. Mientras tanto, reserva una
-                  sesión personalizada de 30 min y te lo mostramos en directo
-                  con datos de tu negocio.
-                </div>
-                <a
-                  href="/demo"
-                  style={{
-                    marginTop: '8px',
-                    background: '#EB8C3D',
-                    color: '#050505',
-                    fontSize: '13px',
-                    fontWeight: 600,
-                    padding: '11px 22px',
-                    borderRadius: '8px',
-                    textDecoration: 'none',
-                    boxShadow: '0 10px 26px rgba(235,140,61,0.24)',
-                  }}
-                >
-                  Reservar demo en directo
-                </a>
-              </div>
+                <source src="/demo-corto.mp4" type="video/mp4" />
+                Tu navegador no soporta el elemento video.
+              </video>
             </motion.div>
           </motion.div>
         )}
