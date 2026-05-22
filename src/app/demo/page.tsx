@@ -67,26 +67,9 @@ export default function DemoPage() {
 
       {/* Main content */}
       <div className="mx-auto max-w-6xl px-5 py-12 md:px-10 md:py-20">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-20">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-20 lg:items-start">
 
-          {/* Left column — video */}
-          <div className="flex flex-col gap-6">
-            <video
-              width="100%"
-              height="auto"
-              controls
-              style={{
-                borderRadius: 16,
-                border: "1px solid rgba(255,255,255,0.10)",
-                backgroundColor: "#000",
-              }}
-            >
-              <source src="/demo-corto.mp4" type="video/mp4" />
-              Tu navegador no soporta el elemento video.
-            </video>
-          </div>
-
-          {/* Right column — context and form */}
+          {/* Left column — copy + benefits */}
           <div className="flex flex-col">
             <p
               style={{
@@ -99,7 +82,7 @@ export default function DemoPage() {
                 marginBottom: 16,
               }}
             >
-              DEMO GRATUITA · 1 MINUTO
+              DEMO GRATUITA · 30 MINUTOS
             </p>
 
             <h1

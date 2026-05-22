@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 /* ─── Shared color tokens ─── */
@@ -787,6 +787,25 @@ export function PlatformSection() {
   const [visibleMessages, setVisibleMessages] = useState(0);
   const [openModal, setOpenModal] = useState<'responses' | 'followup' | null>(null);
 
+  // Mockup auto-scale on mobile so the whole dashboard fits the viewport width
+  const mockupWrapperRef = useRef<HTMLDivElement>(null);
+  const MOCKUP_BASE_WIDTH = 720;
+  const MOCKUP_BASE_HEIGHT = 460;
+  const [mockupScale, setMockupScale] = useState(1);
+
+  useEffect(() => {
+    const updateScale = () => {
+      const el = mockupWrapperRef.current;
+      if (!el) return;
+      const width = el.offsetWidth;
+      // On desktop (>= MOCKUP_BASE_WIDTH) keep scale 1; on mobile scale down
+      setMockupScale(Math.min(1, width / MOCKUP_BASE_WIDTH));
+    };
+    updateScale();
+    window.addEventListener('resize', updateScale);
+    return () => window.removeEventListener('resize', updateScale);
+  }, []);
+
   const currentTab = tabs[activeTab];
 
   const handleTabChange = useCallback((index: number) => {
@@ -989,19 +1008,29 @@ export function PlatformSection() {
         >
           {/* Left: Mockup panel — direct child of grid */}
           <div
+            ref={mockupWrapperRef}
             className="order-2 lg:order-1"
             style={{
               border: '1px solid rgba(10,10,10,0.07)',
               borderRadius: '12px',
-              overflow: 'auto',
+              overflow: 'hidden',
               boxShadow: '0 18px 60px rgba(0,0,0,0.10)',
-              minHeight: '460px',
+              height: `${MOCKUP_BASE_HEIGHT * mockupScale}px`,
+              width: '100%',
             }}
           >
-            {activeTab === 0 && <ConversacionesMockup visibleMessages={visibleMessages} />}
-            {activeTab === 1 && <PendientesMockup />}
-            {activeTab === 2 && <PropuestasMockup />}
-            {activeTab === 3 && <RevisionesMockup onOpenModal={handleOpenModal} />}
+            <div
+              style={{
+                width: `${MOCKUP_BASE_WIDTH}px`,
+                transform: `scale(${mockupScale})`,
+                transformOrigin: 'top left',
+              }}
+            >
+              {activeTab === 0 && <ConversacionesMockup visibleMessages={visibleMessages} />}
+              {activeTab === 1 && <PendientesMockup />}
+              {activeTab === 2 && <PropuestasMockup />}
+              {activeTab === 3 && <RevisionesMockup onOpenModal={handleOpenModal} />}
+            </div>
           </div>
 
           {/* Right: Explain card — direct child of grid, same level */}
@@ -1010,14 +1039,12 @@ export function PlatformSection() {
             initial={{ opacity: 0, x: 12 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.3, ease: 'easeOut' }}
-            className="order-1 lg:order-2"
+            className="order-1 lg:order-2 lg:sticky lg:top-24"
             style={{
               background: '#0A0A0A',
               border: '1px solid rgba(255,255,255,0.08)',
               borderRadius: '12px',
               padding: '26px',
-              position: 'sticky',
-              top: '96px',
             }}
           >
             <ExplainCard card={currentTab.card} tabKey={currentTab.key} />

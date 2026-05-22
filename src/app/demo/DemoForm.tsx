@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
+import { supabase } from "@/lib/supabase";
 
 type Field = {
   name: string;
@@ -43,10 +44,33 @@ const labelStyle = {
   letterSpacing: "0.02em",
 };
 
+// Extend Window type for Cal.com embed
+declare global {
+  interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    Cal?: any;
+  }
+}
+
 export default function DemoForm() {
   const [form, setForm] = useState<Record<string, string>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(false);
+  const calTriggerRef = useRef<HTMLButtonElement>(null);
+
+  // Load Cal.com embed script
+  useEffect(() => {
+    if (document.getElementById("cal-embed-script")) return;
+
+    const script = document.createElement("script");
+    script.id = "cal-embed-script";
+    script.innerHTML = `
+      (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+      Cal("init", "30min", { origin: "https://app.cal.com" });
+      Cal.ns["30min"]("ui", { hideEventTypeDetails: false, layout: "month_view" });
+    `;
+    document.head.appendChild(script);
+  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
@@ -68,7 +92,7 @@ export default function DemoForm() {
     return newErrors;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const newErrors = validate();
     if (Object.keys(newErrors).length > 0) {
@@ -76,10 +100,33 @@ export default function DemoForm() {
       return;
     }
     setLoading(true);
-    // Redirect to cal.com after a brief moment
-    setTimeout(() => {
-      window.location.href = "https://cal.com/nokvu/demo";
-    }, 600);
+
+    try {
+      // Guardar lead en Supabase
+      const { error } = await supabase.from("leads").insert({
+        nombre: form.nombre,
+        email: form.email,
+        empresa: form.empresa,
+        telefono: form.telefono,
+      });
+
+      if (error) {
+        console.error("Error guardando lead:", error);
+      }
+
+      // Actualizar el data-cal-link con los datos pre-rellenados y abrir el popup
+      const fullName = `${form.nombre} ${form.apellidos}`.trim();
+      const calLink = `didac-puig-wywnbm/30min?name=${encodeURIComponent(fullName)}&email=${encodeURIComponent(form.email)}`;
+
+      if (calTriggerRef.current) {
+        calTriggerRef.current.setAttribute("data-cal-link", calLink);
+        calTriggerRef.current.click();
+      }
+    } catch (err) {
+      console.error("Unexpected error:", err);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -91,6 +138,17 @@ export default function DemoForm() {
         padding: "32px 28px",
       }}
     >
+      {/* Hidden Cal.com trigger button */}
+      <button
+        ref={calTriggerRef}
+        data-cal-namespace="30min"
+        data-cal-link="didac-puig-wywnbm/30min"
+        data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+        style={{ display: "none" }}
+        aria-hidden="true"
+        tabIndex={-1}
+      />
+
       <h2
         style={{
           fontFamily: "var(--font-outfit)",
@@ -237,7 +295,7 @@ export default function DemoForm() {
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{ animation: "spin 1s linear infinite" }}>
                 <path d="M21 12a9 9 0 1 1-6.219-8.56" />
               </svg>
-              Redirigiendo...
+              Guardando...
             </>
           ) : (
             <>
